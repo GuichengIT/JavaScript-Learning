@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义函数属性</title>
+</head>
+<body>
+<script>
+    f.count = 0; //函数自定义属性
+    function f(){
+        console.log(f.count++);
+    }
+    f(); //输出0
+    f(); //输出1
+    f(); //输出2
+</script>
+</body>
+</html>
