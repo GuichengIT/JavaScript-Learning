@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="510d6cf0-5d4b-4cbe-bb06-02bf6b19ec04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaScript-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/01变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/02总结变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/03案例变量的交换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/04数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/05注释.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/06数字类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/07布尔类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/08类型转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Other/09操作符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-function/program/24浮点数值舍入误差.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Other/10浮点数值舍入误差.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-function/program/25null和undefined转换为对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Other/11null和undefined转换为对象.html" afterDir="false" />
-    </list>
+    <list default="true" id="510d6cf0-5d4b-4cbe-bb06-02bf6b19ec04" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -104,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560566510710</updated>
-      <workItem from="1560566513125" duration="3138000" />
+      <workItem from="1560566513125" duration="3407000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1560567772041</created>
@@ -127,11 +110,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560569090171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1560569665375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560569665375</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1560569823888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560569823888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3138000" />
+    <option name="totallyTimeSpent" value="3407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="147" y="29" width="1028" height="673" extended-state="0" />
