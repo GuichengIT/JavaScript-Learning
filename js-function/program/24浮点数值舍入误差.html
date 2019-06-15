@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮点数值舍入误差</title>
+</head>
+<body>
+<script>
+    var x = 0.1;
+    var y = 0.2;
+    if(x+y==0.3){
+        console.log(x+"+"+y+"=0.3");//不会输出，因为if条件不能满足
+    }
+    var x1=0.125;
+    var y1 = 0.5;
+    if(x1+y1==0.625){
+        console.log(x1+"+"+y1+"=0.625");//会输出，因为IEEE754是使用二进制表示法，0.125
+    }                               //即1/8,0.5即1/2都可以进行精确表示。
+</script>
+</body>
+</html>
