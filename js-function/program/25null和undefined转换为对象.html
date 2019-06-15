@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>null和undefined转换为对象</title>
+</head>
+<body>
+<script>
+    // var x = null;
+    var o = Object(null);//null和undefined可以转换为对象但是是个空对象即{}
+    console.log(o);
+    var o1 = Object(undefined);//null和undefined可以转换为对象但是是个空对象即{}
+    console.log(o1);
+</script>
+</body>
+</html>
