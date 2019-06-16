@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量接收数组值</title>
+</head>
+<body>
+<script>
+    var arr = [1,2,3,4];
+    var result = [];
+        for (var prop in arr){
+            result[prop] = arr[prop];
+            console.log("第"+(prop)+"次赋值result数组长度为"+result.length);
+            console.log(result);
+        }
+    // console.log(o);
+</script>
+</body>
+</html>
