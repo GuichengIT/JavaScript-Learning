@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>稀疏数组</title>
+</head>
+<body>
+<script>
+    var array = [];
+    array[100]=1;
+    console.log(array.length);//101
+    console.log(array);//(101) [empty × 100, 1]，也就是100个undefined
+    var array1 = [,,];
+    console.log(array1.length);//2,注意是2而不是3，js中认为数组中国最后一个逗号后面是
+                                //没有元素了
+</script>
+</body>
+</html>
