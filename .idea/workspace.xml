@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c53ea77-4f8f-4d99-b6b9-fd1d422c2d8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JS-Function/program/22函数的角色.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,7 +14,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JS-Other/33不用var声明变量.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +48,7 @@
         <option value="$PROJECT_DIR$/JS-Array/01稀疏数组.html" />
         <option value="$PROJECT_DIR$/DOM/01DOM概念.html" />
         <option value="$PROJECT_DIR$/JS-Object/23体会面向过程和面向对象的编程思想.html" />
+        <option value="$PROJECT_DIR$/src/JS-Other/33不用var声明变量.html" />
       </list>
     </option>
   </component>
@@ -53,6 +64,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -60,11 +72,28 @@
               <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-Function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-Function" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,7 +139,9 @@
       <workItem from="1561456514221" duration="753000" />
       <workItem from="1561469453338" duration="227000" />
       <workItem from="1561555025193" duration="337000" />
-      <workItem from="1561621778380" duration="398000" />
+      <workItem from="1561621778380" duration="660000" />
+      <workItem from="1561863413823" duration="2521000" />
+      <workItem from="1561945616395" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1560567772041</created>
@@ -287,16 +318,38 @@
       <option name="project" value="LOCAL" />
       <updated>1561621976682</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update">
+      <created>1561622182761</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1561622182761</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update">
+      <created>1561622377346</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1561622377346</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update">
+      <created>1561864902243</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1561864902245</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22557000" />
+    <option name="totallyTimeSpent" value="25957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22098215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24627976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,5 +416,12 @@
     <entry file="file://$PROJECT_DIR$/DOM/01DOM概念.html" />
     <entry file="file://$PROJECT_DIR$/js-function/program/24函数的原型.html" />
     <entry file="file://$PROJECT_DIR$/JS-Object/23体会面向过程和面向对象的编程思想.html" />
+    <entry file="file://$PROJECT_DIR$/src/JS-Other/33不用var声明变量.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
