@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>包装对象</title>
+</head>
+<body>
+<script>
+    //手动创建的包装对象
+    var obj = new String();
+    obj.value = "zhang";
+    console.log(obj.value);//输出 zhang
+    //自动创建的包装对象
+    var s = "";
+    s.value = "zhang";
+    console.log(s.value);//输出 undefined
+</script>
+
+</body>
+</html>
