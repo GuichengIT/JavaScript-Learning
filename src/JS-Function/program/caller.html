@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>caller</title>
+</head>
+<body>
+
+<script>
+    var a = 1;
+    var b;
+    function outer(){
+        if (a===1){
+            inner();
+        }
+        return ++a;
+    }
+    function inner(){
+        console.log(arguments.callee.caller);
+        // console.log(arguments.callee.caller());
+        b = arguments.callee.caller;
+    }
+    console.log(outer());
+    console.log(b());
+    console.log(b());
+
+</script>
+
+</body>
+</html>
