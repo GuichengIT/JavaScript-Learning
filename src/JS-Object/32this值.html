@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this</title>
+</head>
+<body>
+<script>
+    // function sum(num1,num2){
+    //     return (num1+num2);
+    // }
+    // function applysum(num1,num2){
+    //     function applysum1(num1,num2){
+    //         var result1 = sum.apply(applysum1,[num1,num2]);
+    //         console.log("最内层函数的this值"+this);//仍然是windows对象
+    //         console.log("result1="+result1);
+    //     }
+    //     var result = sum.apply(this,arguments);
+    //     console.log(this);//windows对象
+    //     console.log(result);
+    //     applysum1(10,10);
+    // }
+    // applysum(10,10);
+
+    var o = {
+      m: function(){
+          var self = this;
+          console.log(this===o);
+          f();
+          function f(){
+              console.log(this===o);
+              console.log(this===o.m);
+              console.log(this===window);
+              console.log(self===o);
+          }
+      }
+    };
+    o.m();
+
+
+
+
+</script>
+
+</body>
+</html>
