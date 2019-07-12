@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>访问器属性</title>
+</head>
+<body>
+<script>
+    var book = {
+        _year:2004,
+        edition:1
+    };
+    Object.defineProperty(book,"year",{
+        Get:function () {
+            return this._year;
+        },
+        Set:function(newvalue){
+            if (newvalue>2004) {
+                this._year = newvalue;
+                this.edition += newvalue - 2004;
+            }
+        }
+    });
+
+    book.year=2005;
+    alert(book.edition);
+</script>
+
+</body>
+</html>
