@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型的动态性</title>
+</head>
+<body>
+<script>
+    //先重写原型对象，再创建实例不会切断原型对象和实例之间的联系
+    // function Person(){
+    // }
+    // Person.prototype = {
+    //     name: "zhangsan"
+    // };
+    // var friend = new Person();
+    // alert(friend.name);
+    //先创建实例然后再重写原型对象会切断原型对象和实例之间的联系
+    function Person(){
+    }
+    var friend = new Person();
+    Person.prototype = {
+        name: "zhangsan"
+    };
+    alert(friend.name);
+</script>
+</body>
+</html>
