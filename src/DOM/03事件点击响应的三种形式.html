@@ -5,8 +5,16 @@
     <title>事件点击响应的三种形式</title>
 </head>
 <body>
+
 <!--第一种方式-->
-<input type="button" value="显示效果" onclick="alert('第一种方式')">
+<!--<input type="button" value="显示效果" onclick="alert('第一种方式')">-->
+<!--第二种方式-->
+<script>
+    function f() {
+        alert("display第二种方式")
+    }
+</script>
+<input type="button" value="显示效果" onclick="f()">
 
 </body>
 </html>
