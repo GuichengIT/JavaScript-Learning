@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c53ea77-4f8f-4d99-b6b9-fd1d422c2d8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/LinkedList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JS-Object/34原型的动态性.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JS-Object/34原型的动态性.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/JS-Object/34原型的动态性.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -197,35 +195,7 @@
       <workItem from="1563064450342" duration="2389000" />
       <workItem from="1563371546323" duration="1214000" />
       <workItem from="1563419846518" duration="596000" />
-      <workItem from="1563712267042" duration="687000" />
-    </task>
-    <task id="LOCAL-00013" summary="update">
-      <created>1560901546967</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1560901546967</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update">
-      <created>1560901602964</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1560901602964</updated>
-    </task>
-    <task id="LOCAL-00015" summary="update">
-      <created>1560901646093</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1560901646093</updated>
-    </task>
-    <task id="LOCAL-00016" summary="update">
-      <created>1560901701401</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1560901701401</updated>
+      <workItem from="1563712267042" duration="1993000" />
     </task>
     <task id="LOCAL-00017" summary="update">
       <created>1560901750524</created>
@@ -542,11 +512,39 @@
       <option name="project" value="LOCAL" />
       <updated>1563712313529</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="update">
+      <created>1563714128164</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1563714128164</updated>
+    </task>
+    <task id="LOCAL-00063" summary="update">
+      <created>1563714147135</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1563714147135</updated>
+    </task>
+    <task id="LOCAL-00064" summary="update">
+      <created>1563714979698</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1563714979698</updated>
+    </task>
+    <task id="LOCAL-00065" summary="update">
+      <created>1563715040497</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1563715040498</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48805000" />
+    <option name="totallyTimeSpent" value="50111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/src/JS-Object/34原型的动态性.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
