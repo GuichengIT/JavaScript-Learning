@@ -5,6 +5,16 @@
     <title>点击按钮显示图片</title>
 </head>
 <body>
-
+<input type="button" value="显示图片" id="btn">
+<img src="" alt="" id="im">
+<script>
+    var btnobject=document.getElementById("btn")
+    btnobject.onclick=function () {
+        var imobject=document.getElementById("im")
+        imobject.src="images/1.jpg"
+        imobject.width="300"
+        imobject.height="400"
+    }
+</script>
 </body>
 </html>
