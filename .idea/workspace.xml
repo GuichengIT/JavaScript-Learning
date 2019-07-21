@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c53ea77-4f8f-4d99-b6b9-fd1d422c2d8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/LinkedList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JS-Object/34原型的动态性.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/JS-Object/34原型的动态性.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,16 +39,34 @@
         <entry file="file://$PROJECT_DIR$/src/JS-Object/31slice,substring,substr.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithm/LinkedList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JS-Object/33访问器属性.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Algorithm/LinkedList.html">
+        <entry file="file://$PROJECT_DIR$/src/JS-Object/34原型的动态性.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="159">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -55,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JS-Object/32this值.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="352">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -92,6 +111,8 @@
         <option value="$PROJECT_DIR$/src/JS-Object/31slice,substring,substr.html" />
         <option value="$PROJECT_DIR$/src/JS-Object/32this值.html" />
         <option value="$PROJECT_DIR$/src/Algorithm/LinkedList.html" />
+        <option value="$PROJECT_DIR$/src/JS-Object/33访问器属性.html" />
+        <option value="$PROJECT_DIR$/src/JS-Object/34原型的动态性.html" />
       </list>
     </option>
   </component>
@@ -114,17 +135,6 @@
             <path>
               <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,91 +191,13 @@
       <workItem from="1562068992407" duration="3324000" />
       <workItem from="1562212728900" duration="1181000" />
       <workItem from="1562286996349" duration="6514000" />
-      <workItem from="1562385404472" duration="520000" />
-    </task>
-    <task id="LOCAL-00001" summary="update">
-      <created>1560567772041</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1560567772041</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update">
-      <created>1560568107923</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1560568107923</updated>
-    </task>
-    <task id="LOCAL-00003" summary="update">
-      <created>1560569090171</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1560569090171</updated>
-    </task>
-    <task id="LOCAL-00004" summary="update">
-      <created>1560569665375</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1560569665375</updated>
-    </task>
-    <task id="LOCAL-00005" summary="update">
-      <created>1560569823888</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1560569823888</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update">
-      <created>1560570033099</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1560570033099</updated>
-    </task>
-    <task id="LOCAL-00007" summary="update">
-      <created>1560644832748</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1560644832749</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update">
-      <created>1560651365801</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1560651365801</updated>
-    </task>
-    <task id="LOCAL-00009" summary="update">
-      <created>1560681429091</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1560681429091</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update">
-      <created>1560692872287</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1560692872287</updated>
-    </task>
-    <task id="LOCAL-00011" summary="update">
-      <created>1560901452003</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1560901452003</updated>
-    </task>
-    <task id="LOCAL-00012" summary="update">
-      <created>1560901504885</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1560901504885</updated>
+      <workItem from="1562385404472" duration="1847000" />
+      <workItem from="1562487415431" duration="676000" />
+      <workItem from="1562936906487" duration="1865000" />
+      <workItem from="1563064450342" duration="2389000" />
+      <workItem from="1563371546323" duration="1214000" />
+      <workItem from="1563419846518" duration="596000" />
+      <workItem from="1563712267042" duration="687000" />
     </task>
     <task id="LOCAL-00013" summary="update">
       <created>1560901546967</created>
@@ -435,11 +367,195 @@
       <option name="project" value="LOCAL" />
       <updated>1562309665899</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="update">
+      <created>1562385940879</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1562385940879</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update">
+      <created>1562487478250</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1562487478251</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update">
+      <created>1562937519082</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1562937519082</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update">
+      <created>1563064849021</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1563064849021</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update">
+      <created>1563064904592</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1563064904592</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update">
+      <created>1563064992279</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1563064992279</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update">
+      <created>1563371586342</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1563371586342</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update">
+      <created>1563371880020</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1563371880020</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update">
+      <created>1563371955775</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1563371955775</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update">
+      <created>1563371987042</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1563371987042</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update">
+      <created>1563372019558</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1563372019558</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update">
+      <created>1563372087593</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1563372087593</updated>
+    </task>
+    <task id="LOCAL-00049" summary="update">
+      <created>1563372118172</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1563372118172</updated>
+    </task>
+    <task id="LOCAL-00050" summary="update">
+      <created>1563372141884</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1563372141884</updated>
+    </task>
+    <task id="LOCAL-00051" summary="update">
+      <created>1563419892040</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1563419892041</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update">
+      <created>1563419919948</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1563419919948</updated>
+    </task>
+    <task id="LOCAL-00053" summary="update">
+      <created>1563419952397</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1563419952397</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update">
+      <created>1563419980993</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1563419980993</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update">
+      <created>1563420013500</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1563420013500</updated>
+    </task>
+    <task id="LOCAL-00056" summary="update">
+      <created>1563420058054</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1563420058054</updated>
+    </task>
+    <task id="LOCAL-00057" summary="update">
+      <created>1563420087346</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1563420087346</updated>
+    </task>
+    <task id="LOCAL-00058" summary="update">
+      <created>1563420114948</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1563420114948</updated>
+    </task>
+    <task id="LOCAL-00059" summary="update">
+      <created>1563420141876</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1563420141876</updated>
+    </task>
+    <task id="LOCAL-00060" summary="update">
+      <created>1563420165389</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1563420165389</updated>
+    </task>
+    <task id="LOCAL-00061" summary="update">
+      <created>1563712313528</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1563712313529</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40051000" />
+    <option name="totallyTimeSpent" value="48805000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -454,11 +570,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989899" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010101" side_tool="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4955357" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50446427" side_tool="true" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -551,24 +667,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JS-Object/32this值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JS-Object/31slice,substring,substr.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithm/LinkedList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="308">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JS-Object/33访问器属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JS-Object/32this值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JS-Object/34原型的动态性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
