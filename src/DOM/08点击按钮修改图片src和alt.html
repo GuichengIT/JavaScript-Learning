@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击按钮修改图片src和alt</title>
+</head>
+<body>
+<input type="button" value="显示效果" id="btn">
+<img src="images/1.jpg" alt="加载图片中" id="img">
+<script>
+    document.getElementById("btn").onclick=function() {
+        var imgobj=document.getElementById("img")
+        imgobj.src="images/2.jpg"
+        imgobj.alt="hello,please wait"
+    }
+</script>
+</body>
+</html>
