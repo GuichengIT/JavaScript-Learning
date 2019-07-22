@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>点击修改a标签地址和热点文字</title>
 </head>
 <body>
-
+<input type="button" value="修改a标签" id="btn">
+<a href="http://www.baidu.com" id="a1" >百度</a>
+<script>
+    var btnobject = document.getElementsById("btn")
+    btnobject.onclick()=function () {
+        var aobject=document.getElementById("a1")
+        aobject.innerText="京东"
+        aobject.href="http://www.jd.com"
+    }
+</script>
 </body>
 </html>
