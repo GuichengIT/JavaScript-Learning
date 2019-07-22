@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击按钮修改p标签的内容</title>
+</head>
+<body>
+<input type="button" value="修改p标签" id="btn">
+<p id="p1">这是一个p标签</p>
+<script>
+    var btnobject=document.getElementById("btn")
+    btnobject.onclick=function () {
+        document.getElementById("p1").innerText="已完成修改“
+    }
+</script>
+
+</body>
+</html>
