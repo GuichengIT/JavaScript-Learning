@@ -27,12 +27,13 @@
 
 <script>
     document.getElementById("btn").onclick=function(){
-        var pobjs=document.getElementsByTagName("p");//返回一个数组
+        var pobjs=document.getElementById("div1").getElementsByTagName("p");//返回一个数组
         //console.log(pobjs);
         for(var i=0,length=pobjs.length;i<length;i++){
             pobjs[i].innerText="I will change";
         }
     }
+    
 </script>
 </body>
 </html>
