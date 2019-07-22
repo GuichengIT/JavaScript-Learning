@@ -8,12 +8,15 @@
 <input type="button" value="修改a标签" id="btn">
 <a href="http://www.baidu.com" id="a1" >百度</a>
 <script>
-    var btnobject = document.getElementsById("btn")
-    btnobject.onclick()=function () {
+    alert(document.referrer)
+    var btnobject = document.getElementById("btn")
+    btnobject.onclick=function () {
         var aobject=document.getElementById("a1")
         aobject.innerText="京东"
         aobject.href="http://www.jd.com"
+        alert(document.referrer)
     }
+
 </script>
 </body>
 </html>
