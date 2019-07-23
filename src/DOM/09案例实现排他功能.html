@@ -11,15 +11,15 @@
 <input type="button" value="hello" >
 <script>
     var imgobjs = document.getElementsByTagName("input");
-    for (var i=0,length=imgobjs.length;i<length;i++){
-        imgobjs[i].onclick=function (){
-            for (var i=0,length=imgobjs.length;i<length;i++){
-                imgobjs[i].value="hello";//这个地方用this不行，因为js中没有块级作用域的概念，这个地方用this，和下面的this实际上是同一个this
+    for (var i=0,length=imgobjs.length;i<length;i++) {
+        imgobjs[i].onclick = function () {
+            for (var i = 0, length = imgobjs.length; i < length; i++) {
+                imgobjs[i].value = "hello";//这个地方用this不行，因为js中没有块级作用域的概念，这个地方用this，和下面的this实际上是同一个this
             }
-           // imgobjs[i].value="no hello";//这个地方用imgobjs[i]是不对的，因为
+            // imgobjs[i].value="no hello";//这个地方用imgobjs[i]是不对的，因为
             //因为当事件被点击时才会执行函数，此时i的值为imgobjs.length。
-            this.value="no hello"
-        }
+            this.value = "no hello";
+        };
     }
 </script>
 </body>
