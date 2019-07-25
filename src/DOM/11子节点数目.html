@@ -12,8 +12,15 @@
 </ul>
 <script>
     var ulobj=document.getElementById("myList");
-    alert(ulobj.childNodes.length);//在非IE浏览器下返回7
+    alert(ulobj.childNodes.length);//在IE8及以下版本返回3，其它返回7
     console.log(ulobj.childNodes.length);
+    var count=0;
+    for (var i=0,len=ulobj.childNodes.length;i<len;i++){
+        if(ulobj.childNodes[i].nodeType == 1){
+            count++;
+        }
+    }
+    console.log("元素子节点的个数"+count);
 </script>
 </body>
 </html>
