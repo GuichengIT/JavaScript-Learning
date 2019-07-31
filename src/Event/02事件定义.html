@@ -8,6 +8,7 @@
 
     <button onclick="alertfunc()">点我呀</button>
     <button id="btn">DOM0级事件绑定方式</button>
+    <button id="btn2">DOM2级事件绑定方式</button>
     <script type="text/javascript">
         /*
         * 1.事件对象   如button
@@ -22,6 +23,13 @@
         };
         var btn = document.getElementById("btn");
         btn.onclick = DOM0;
+
+
+        var btn2 = document.getElementById("btn2");
+        btn2.addEventListener('click', function(){
+            alert("DOM2级事件绑定方式")
+        },false)
+
     </script>
 </body>
 </html>
