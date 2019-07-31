@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>认识事件</title>
+</head>
+<body>
+    <button id="btn">点击我，有惊喜</button>
+    <script>
+        var btn = document.getElementById("btn");
+        function clickme(){
+            alert("你点我了");
+        }
+        btn.addEventListener("click", clickme);
+    </script>
+
+</body>
+</html>
