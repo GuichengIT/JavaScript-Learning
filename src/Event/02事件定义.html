@@ -23,12 +23,24 @@
         };
         var btn = document.getElementById("btn");
         btn.onclick = DOM0;
-
-
-        var btn2 = document.getElementById("btn2");
-        btn2.addEventListener('click', function(){
+        function DOM_2() {
             alert("DOM2级事件绑定方式")
-        },false)
+        }
+        var btn2 = document.getElementById("btn2");
+        btn2.addEventListener('click',DOM_2,false);
+        /*
+        * 1.html元素中定义   html中写js代码，强耦合（也就是硬生生将两者代码结合在一起）不利于复用代码
+        * 2.DOM0级事件，事件对象的属性添加绑定事件 松耦合 ，html与js分离了
+        * 缺点：只能绑定一个事件类型，比如有两个btn.onclick,那么点击后面btn.onslick中的函数
+        * 3.DOM2级事件，通过addEventListener函数绑定事件
+        * 优点：松耦合，绑定多个事件，事件捕获和事件冒泡
+        *
+        * */
+
+        //事件解绑，利用removeEventListener(里面的参数和addEventListener()绑定事件时的要一样)，如果add..中的函数句柄是一个匿名函数那么无法解绑，因为不能够做到
+        //两个函数的参数一样，即使将上面的匿名函数复制下来，在内存中指的也不是同一个函数,所以要实现解绑在add...中不用使用匿名函数
+        btn2.removeEventListener("click",DOM_2,false);
+
 
     </script>
 </body>
