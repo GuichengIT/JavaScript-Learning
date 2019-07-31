@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件定义</title>
+</head>
+<body>.
+
+    <button onclick="alertfunc()">点我呀</button>
+    <button id="btn">DOM0级事件绑定方式</button>
+    <script type="text/javascript">
+        /*
+        * 1.事件对象   如button
+        * 2.事件对象绑定一个事件类型
+        * 3.事件句柄（也就是事件发生生执行的函数）
+        * */
+        function alertfunc(){
+            alert("你又点击我");
+        }
+        var DOM0 = function() {
+            alert("Dom0级事件绑定方式");
+        };
+        var btn = document.getElementById("btn");
+        btn.onclick = DOM0;
+    </script>
+</body>
+</html>
