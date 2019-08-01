@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Event对象常用属性和方法</title>
 </head>
 <body>
+    <button id="myBtn">点击我</button>
+    <div id="parent">
+        <div id="son">点击我</div>
+    </div>
+    <script type="text/javascript">
+        var btn = document.getElementById("myBtn");
+        function eventFun(event){
+            if(event.type=="click"){
+                alert("click事件被触发了")
+            }else if(event.type=="mouseout"){
+                alert("mouseout事件被触发了")
+            }
+        }
+        btn.addEventListener("click",eventFun,false);
+        btn.addEventListener("mouseout",eventFun,false);
 
+        var parent=document.getElementById("parent");
+        parent.addEventListener("click",function(event){
+            alert(event.target.id);
+        })
+    </script>
 </body>
 </html>
