@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跨浏览器事件处理程序</title>
+</head>
+<body>
+    <button id="myBtn">点击我</button>
+    <script type="text/javascript">
+        //兼容所有浏览器
+        function click(){
+            alert("click me");
+        }
+        var EventUtil = {
+            addHander: function(ele, type, bool){
+                if(ele.addEventListener){
+                    ele.addEventListener(type,click,bool);
+                }
+                else if(ele.attachEvent){
+                    ele.attachEvent("on"+type, click);
+                }
+                else {
+                    alert("fail");
+                }
+            },
+            removeHander: function(ele,type,bool){
+                if(ele.removeEventListener){
+                    ele.removeEventListener(type,click,bool);
+                }else if(ele.detachEvent){
+                    ele.detachEvent("on"+type,click);
+                } else{
+                    alert("failure")
+                }
+            }
+        };
+        var btn = document.getElementById("myBtn");
+        EventUtil.addHander(btn,"click",false);
+        EventUtil.removeHander(btn,"click",false);
+        //
+    </script>
+
+</body>
+</html>
