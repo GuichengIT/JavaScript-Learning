@@ -21,8 +21,8 @@
 
 
         var btn = document.getElementById("myBtn");
-        function eventFun(a){
-            if(a.type=="click"){
+        function eventFun(){
+            if(arguments[0].type=="click"){
                 alert("click事件被触发了");
                 console.log(a);
              }
