@@ -27,8 +27,13 @@
         }
         // btn.addEventListener("click",eventFun,true);
         // document.body.addEventListener("click",eventFun1,true);
-        btn.onmouseover=eventFun;
-        // btn.onclick=eventFun;
+        if(navigator.onLine){
+            // btn.onmouseover=eventFun;
+            btn.onclick=eventFun;
+        }else{
+            alert("不能上网吆");
+        }
+        console.log(navigator.onLine);
 
 
 
