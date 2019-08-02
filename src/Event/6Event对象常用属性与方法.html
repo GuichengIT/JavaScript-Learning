@@ -22,21 +22,20 @@
 
         var btn = document.getElementById("myBtn");
         function eventFun(){
-            if(arguments[0].type=="click"){
-                alert("click事件被触发了");
-                console.log(a);
-             }
-            // else if(arguments[0].type=="mouseout"){
-            //     alert("mouseout事件被触发了")
-            // }
+            if (arguments[0].type == "click") {
+                alert("btn上的click事件被触发了");
+                console.log(arguments[0].eventPhase);
+            }
+        }
+        function eventFun(){
+            if (arguments[0].type == "click"){
+                alert("body上的click事件被触发了");
+                console.log(arguments[0].eventPhase);
+            }
         }
         btn.addEventListener("click",eventFun,false);
-        // btn.addEventListener("mouseout",eventFun,false);
+        document.body.addEventListener("click",eventFun1,false);
 
-        var parent=document.getElementById("parent");
-        parent.addEventListener("click",function(event){
-            alert(event.target.id);
-        })
     </script>
 </body>
 </html>
