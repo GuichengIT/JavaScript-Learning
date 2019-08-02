@@ -10,31 +10,27 @@
         <div id="son">点击我</div>
     </div>
     <script type="text/javascript">
-
-        function f(a,b) {
-            console.log(a);
-            console.log(b);
-            console.log(arguments[0]);
-            console.log(arguments[1]);
-        }
-        f(1,2);
-
-
         var btn = document.getElementById("myBtn");
         function eventFun(){
             if (arguments[0].type == "click") {
                 alert("btn上的click事件被触发了");
+                console.log("btn");
                 console.log(arguments[0].eventPhase);
             }
         }
-        function eventFun(){
+        function eventFun1(){
             if (arguments[0].type == "click"){
                 alert("body上的click事件被触发了");
+                console.log("body");
                 console.log(arguments[0].eventPhase);
             }
         }
-        btn.addEventListener("click",eventFun,false);
-        document.body.addEventListener("click",eventFun1,false);
+        // btn.addEventListener("click",eventFun,true);
+        // document.body.addEventListener("click",eventFun1,true);
+        btn.onmouseover=eventFun;
+        // btn.onclick=eventFun;
+
+
 
     </script>
 </body>
