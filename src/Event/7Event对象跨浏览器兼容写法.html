@@ -8,24 +8,39 @@
 <div id="father">
     <div id="son">点击我</div>
 </div>
+<a href="http://www.baidu.com" id="a">跳转链接</a>
 <script type="text/javascript">
     var EventUtil = {
         addHander: function (element, type, handler){
             if(element.addEventListener){
                 element.addEventListener(type, handler, false);
-            }else if(element.attachEvent){
+            } else if(element.attachEvent){
                 element.attachEvent("on"+type, handler)
-            }else {
+            } else {
                 element["on"+type] = handler;
             }
         },
-        getTarget: function (event) {
+        getTarget: function(event){
             return event.target || event.srcElement;
-        }
+        },
+        preventDefault: function (event){
+            if(event.preventDefault){
+                event.preventDefault();
+            }else {
+                event.returnValue = false;
+            }
+        },
     };
-    var div = document.getElementById("father");
-    EventUtil.addHander(div, "click", alert("点我"));
-    EventUtil.getTarget();
+    var div = document.getElementById("son");
+    EventUtil.addHander(div, "click", function (event) {
+        alert(1111);
+        var target = EventUtil.getTarget(event);
+        console.log(target);
+    });
+    var a = document.getElementById("a");
+    EventUtil.addHander(a, "click", function(event){
+        EventUtil.preventDefault(event);
+    })
 
 </script>
 
