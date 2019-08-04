@@ -30,10 +30,16 @@
                 event.returnValue = false;
             }
         },
+        stopPropagation: function(event){
+            if(event.stopPropagation){
+                event.stopPropagation();
+            }else {
+                event.cancelBubble=true;
+            }
+        }
     };
     var div = document.getElementById("son");
     EventUtil.addHander(div, "click", function (event) {
-        alert(1111);
         var target = EventUtil.getTarget(event);
         console.log(target);
     });
@@ -41,6 +47,15 @@
     EventUtil.addHander(a, "click", function(event){
         EventUtil.preventDefault(event);
     })
+    var son = document.getElementById("son");
+    EventUtil.addHander(son, "click", function(event){
+       alert("son");
+       EventUtil.stopPropagation(event);
+    });
+    var father = document.getElementById("father");
+    EventUtil.addHander(father, "click", function(event){
+        alert("father");
+    });
 
 </script>
 
