@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件类型</title>
+</head>
+<body>
+<button id="btn">click me</button>
+<script type="text/javascript">
+    var EventUtil = {
+        addHander: function (element, type, handler){
+            if(element.addEventListener){
+                element.addEventListener(type, handler, false);
+            } else if(element.attachEvent){
+                element.attachEvent("on"+type, handler)
+            } else {
+                element["on"+type] = handler;
+            }
+        },
+        getTarget: function(event){
+            return event.target || event.srcElement;
+        },
+        preventDefault: function (event){
+            if(event.preventDefault){
+                event.preventDefault();
+            }else {
+                event.returnValue = false;
+            }
+        },
+        stopPropagation: function(event){
+            if(event.stopPropagation){
+                event.stopPropagation();
+            }else {
+                event.cancelBubble=true;
+            }
+        }
+    };
+//    UI事件
+//    当页面完全加载完成后在window上面触发
+    EventUtil.addHander(window, "load", function(e){
+        alert("loaded!");
+    });
+    var btn = document.getElementById("btn");
+    EventUtil.addHander(btn, "mouseenter", function(event){
+        console.log("mouseenter");
+    });
+    EventUtil.addHander(btn, "mouseleave", function(event){
+        console.log("mousedown");
+    });
+
+</script>
+
+</body>
+</html>
