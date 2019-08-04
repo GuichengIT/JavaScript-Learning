@@ -3,8 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>小项目</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #canvas {
+            height: 500px;
+        }
+        ul li {
+            float: left;
+            width: 100px;
+            height: 30px;
+            border-radius: 30%;
+            background-color: #333;
+            text-align: center;
+            line-height: 30px;
+        }
+        ul li:nth-child(1){
+            background-color: red;
+        }
+        ul li:nth-child(2){
+            background-color: yellow;
+        }
+        ul li:nth-child(3){
+            background-color: blue;
+        }
+        ul li:nth-child(4){
+            background-color: purple;
+        }
+        ul li:nth-child(5){
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
+    <div id="canvas"></div>
+    <ul id="ul">
+        <li>红色</li>
+        <li>黄色</li>
+        <li>蓝色</li>
+        <li>紫色</li>
+        <li>绿色</li>
+    </ul>
+    <script type="text/javascript">
+        var ul = document.getElementById("ul");
+        var div = document.getElementById("canvas");
+        ul.addEventListener("click", function(event){
+            var li = event.target;
+            if(li.innerHTML=="红色"){
+                div.style.backgroundColor="red";
+            }else if(li.innerHTML=="黄色"){
+                div.style.backgroundColor="yellow";
+            }else if(li.innerHTML=="蓝色"){
+                div.style.backgroundColor="blue";
+            }else if(li.innerHTML=="紫色"){
+                div.style.backgroundColor="purple";
+            }else {
+                div.style.backgroundColor="green";
+            }
+        }, false)
 
+    </script>
 </body>
 </html>
