@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event跨浏览器兼容写法</title>
+</head>
+<body>
+<div id="father">
+    <div id="son">点击我</div>
+</div>
+<script type="text/javascript">
+    var EventUtil = {
+        addHander: function (element, type, handler){
+            if(element.addEventListener){
+                element.addEventListener(type, handler, false);
+            }else if(element.attachEvent){
+                element.attachEvent("on"+type, handler)
+            }else {
+                element["on"+type] = handler;
+            }
+        },
+        getTarget: function (event) {
+            return event.target || event.srcElement;
+        }
+    };
+    var div = document.getElementById("father");
+    EventUtil.addHander(div, "click", alert("点我"));
+    EventUtil.getTarget();
+
+</script>
+
+</body>
+</html>
