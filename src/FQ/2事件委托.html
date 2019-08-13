@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件委托</title>
+</head>
+<body>
+<div id="div">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+</div>
+<script type="text/javascript">
+    div = document.getElementById("div");
+    btns = div.getElementsByTagName("button");
+    div.addEventListener("click", function (event) {
+        console.log("hello");
+        console.log(event.target);
+        for(var i=0, btnsLen=btns.length;i<btnsLen;i++){
+            if(event.target === btns[i]){
+                console.log(i);
+            }
+        }
+    });
+
+    event = document.createEvent("MouseEvents");
+    event.initMouseEvent("click", true, true, document.defaultView,0,0,0,0,0,false,false,false,false,0,null);
+    btns[2].dispatchEvent(event);
+
+</script>
+
+</body>
+</html>
