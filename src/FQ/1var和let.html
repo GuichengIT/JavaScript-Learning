@@ -8,9 +8,19 @@
 <script type="text/javascript">
     var a = [];
     for(var i=0;i<10;i++){
-        a[i]=console.log(i);
+        a[i] = function(){
+            console.log(i);
+        };
     }
     a[6]();
+
+    var b = [];
+    for(let j=0;j<10;j++){   //j是用let声明的，当前的j只在本次循环中有效，相当于每次都生成了一个新的j，但是js引擎会记住上一次j的值。
+        b[j] = function(){   //因此运行b[6]()这个函数时，此时的j=6，故会输出6.
+            console.log(j);
+        }
+    }
+    b[6]();
 
 
 </script>
