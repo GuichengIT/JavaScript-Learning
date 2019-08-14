@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数定义表达式访问问题</title>
+</head>
+<body>
+<script type="text/javascript">
+    var add = function fn(){
+        console.log(1);
+        fn();//函数定义表达式中函数名就相当于是一个局部变量
+    };
+    add();
+    //fn();//函数定义表达式中函数名就相当于是一个局部变量,在外部无法进行访问
+</script>
+
+</body>
+</html>
