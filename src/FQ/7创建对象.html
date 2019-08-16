@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建对象</title>
+</head>
+<body>
+<script type="text/javascript">
+    // 工厂模式
+    function createPerson(name,age){
+        var obj = new Object();
+        obj.name = name;
+        obj.age = age;
+        return obj;
+    }
+    var person1 = createPerson("zhangsan","18");
+    // 构造函数模式
+    function Person(name,age) {
+        this.name = name;
+        this.age = age;
+    }
+    var person2 = new Person("lisi","19");
+    // 原型模式
+    function People(){
+    }
+   // People.prototype.height = "1.8";
+    // 重写原型对象，这个时候相当于新创建了一个对象然后将它赋给了People.prototype
+    //我们知道原型对象的constructor属性是自动指向构造函数的，但是当我们重写了原型对象后
+    //肯定不会自动指向构造函数了，需要我们手动将constructor属性指向构造函数。
+    People.prototype = { //有上面那句话后这句话直接就没有执行
+        weight: "60kg"
+    };
+    var people1 = new People();
+    alert(people1.height);
+    alert(people1.weight);
+    //混合模式（构造加原型）
+
+    // 判断是否是原型对象中的属性
+    function hasPrototypeProperty(object, property){
+        return !object.hasOwnProperty(property) && (property in object);
+    }
+    alert(hasPrototypeProperty(people1, "weight"));
+    var key = Object.getOwnPropertyNames(People.prototype);
+    var keys = Object.keys(people1);
+    console.log(key);
+    console.log(keys);
+
+
+</script>
+</body>
+</html>
