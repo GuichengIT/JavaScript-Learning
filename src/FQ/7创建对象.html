@@ -34,6 +34,24 @@
     alert(people1.height);
     alert(people1.weight);
     //混合模式（构造加原型）
+    function Blog(name,url){
+        this.name = name;
+        this.url = url;
+    }
+    Blog.prototype = {
+        constructor: Blog,
+        friend: ["zhangsan", "lisi"],
+        fa: function (){
+            console.log("发微博");
+        }
+    };
+    var blog1 = new Blog("zhang","http://www,baidu.com");
+    blog1.friend.push("wangwu");
+    console.log(blog1.fa());
+
+
+
+
 
     // 判断是否是原型对象中的属性
     function hasPrototypeProperty(object, property){
