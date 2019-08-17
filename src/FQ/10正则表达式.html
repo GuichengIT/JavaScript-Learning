@@ -130,15 +130,29 @@
     //              }
     //          }
     //          return nodeList;
-    //
-    //
     //     }
-    //
     // }
 
-    
+    // 前瞻性匹配
+    // var str = "javascript";
+    // // var pattern = /java(?=script)/; //如果后面是script那么就输出java
+    // var pattern = /java(?!script)/; //如果后面是script那么就不输出java
+    // console.log(pattern.exec(str));
 
-
+    // RegExp对象 全局匹配(把所有的都匹配一遍，而不是匹配到满足条件的之后下面的就不匹配了)
+    var str = "js js js js";
+    var pattern = /js/g;
+    console.log("lastIndex = "+pattern.lastIndex);
+    console.log(pattern.exec(str));
+    console.log("lastIndex = "+pattern.lastIndex);
+    console.log(pattern.exec(str));
+    console.log("lastIndex = "+pattern.lastIndex);
+    console.log(pattern.exec(str));
+    console.log("lastIndex = "+pattern.lastIndex);
+    console.log(pattern.exec(str));
+    console.log("lastIndex = "+pattern.lastIndex);
+    console.log(pattern.exec(str));
+    console.log("lastIndex = "+pattern.lastIndex);
 
 
 
