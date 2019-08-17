@@ -5,14 +5,19 @@
     <title>正则表达式</title>
 </head>
 <body>
+
+<p class="odd">1</p>
+<p class="even">2</p>
+<p class="odd">3</p>
+<p class="even">4</p>
 <script type="text/javascript">
     // var str = "I love js";
     // var pattern = /js/;
     // console.log(pattern.test(str));
     // console.log(pattern.exec(str));
 
-    var str = "I love Js";
-    var pattern = /js/;
+    // var str = "I love Js";
+    // var pattern = /js/;
     // console.log(pattern.test(str));
     // console.log(pattern.exec(str));
     /**
@@ -23,8 +28,118 @@
      */
 
 //    构造函数形式声明正则表达式
-    var pattern1 = new RegExp("js");
-    console.log(pattern1.test(str));
+//     var pattern1 = new RegExp("js");
+//     console.log(pattern1.test(str));
+//     字符类
+//     var str = "javascript";
+//     var pattern = /[c-f]/;
+//     console.log(pattern.exec(str));
+//        var str = "Alex成";
+//        var pattern = /[\u4e00-\u9fa5]/;
+//        console.log(pattern.exec(str));
+
+        // var str = "JavaScript2.0";
+        // var pattern = /[a-zA-Z0-9]/;
+        // console.log(pattern.exec(str));
+    //
+    // var str = "00544";
+    // var pattern = /\d?/; // ? ===
+    // console.log(pattern.exec(str));
+
+    // var str = "00544";
+    // var pattern = /\d+/; // + === {1,}
+    // console.log(pattern.exec(str));
+
+    // var str = "angel";
+    // var pattern = /e?le?/; // * === {0,}\
+    // console.log(pattern.exec(str));// ? === {0,1}
+    // var pattern = /e{0,1}le{0,1}/; // * === {0,}\
+    // console.log(pattern.exec(str));// ? === {0,1}
+    // var str = "肯德基豪华午餐：15.5 ！";
+    // var pattern = /\d+\.?\d*/;
+    // var pattern = /\d{1,}\.{0,1}\d{0,}/;
+    // console.log(pattern.exec(str));
+
+    //选择分组和引用
+    // var str  = "ab";
+    // var pattern = /a|ab/;
+    // //会将分组中从左到右按顺序和str中字符串进行匹配，一旦匹配上就不再将分组中的其它字符和str进行匹配。
+    // console.log(pattern.exec(pattern));
+
+    // var str = "<div><a>这是一段文字</a></div>";
+    // var pattern = /<([a-zA-Z]+)>(.*?)<\/\1>/;
+    // console.log(pattern.exec(str));
+
+    //指定匹配位置
+    // var str = "js";
+    // // var pattern1 = /^js/;//首匹配
+    // var pattern2 = /js$/;
+    // console.log(pattern2.exec(str));
+
+    // 要求判别是不是全数字
+    // var str = "1a11";
+    // var pattern = /^\d+$/;
+    // console.log(pattern.exec(str));
+    // if(pattern.test(str)) {
+    //     console.log("全是数字");
+    // }else{
+    //     console.log("不全是数字");
+    // }
+    // // 另一种简单的方法(利用\D)如果匹配成功说明不全是数字
+    // var pattern1 = /\D/;
+    // console.log(pattern1.exec(str));
+    // if(pattern1.test(str)){
+    //     console.log("不全是数字");
+    // }else{
+    //    console.log("全是数字");
+    // }
+
+    // \b 表示边界，开头，结尾，中间的空格都算边界，但是它表示的是一种位置并不会把空格匹配出来
+    // var str = "js html";
+    // var pattern = /\bjs\b/;
+    // console.log(pattern.exec(str));
+
+    // 其实\b就是\W和\w之间的位置
+    // var str = "@@@@js@@@@"; //@属于\W的范畴
+    // var pattern = /\bjs\b/;
+    // console.log(pattern.exec(str));
+
+
+    var oddP = getByClassName("odd");
+    var evenp = getByClassName("even");
+    for(var i=0;i<oddP.length;i++){
+        oddP[i].style.backgroundColor = "red";
+    }
+    for(var i=0;i<evenp.length;i++){
+        evenp[i].style.backgroundColor = "green";
+    }
+    // 实现这个document.getElementsByClassName()方法
+    function getByClassName(className,parentNode){
+        if(!document.getElementsByClassName){
+            return document.getElementsByClassName(className);
+        }else{
+             console.log(1);
+             parentNode = parentNode || document;
+             var nodeList = [];
+             var allNodes = parentNode.getElementsByTagName("*");
+             for(var i=0;i<allNodes.length;i++){
+                 if(allNodes[i].className === className){
+                     nodeList.push(allNodes[i]);
+                 }
+             }
+             return nodeList;
+
+
+        }
+
+    }
+
+
+
+
+
+
+
 
 </script>
 
