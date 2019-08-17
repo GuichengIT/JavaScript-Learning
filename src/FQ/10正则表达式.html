@@ -121,9 +121,11 @@
              console.log(1);
              parentNode = parentNode || document;
              var nodeList = [];
+             var pattern1 = /\bodd\b/;
+             var pattern =new RegExp("\\b"+className+"\\b") ;
              var allNodes = parentNode.getElementsByTagName("*");
              for(var i=0;i<allNodes.length;i++){
-                 if(allNodes[i].className === className){
+                 if(pattern.test(allNodes[i].className)){
                      nodeList.push(allNodes[i]);
                  }
              }
