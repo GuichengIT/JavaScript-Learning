@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>call,apply</title>
+</head>
+<body>
+<script type="text/javascript">
+    // function add(a,b){
+    //     this.a = a;
+    //     this.b = b;
+    //     console.log(this);
+    //     return (a+b);
+    // }
+    // function sub(a,b){
+    //     this.a = a;
+    //     this.b = b;
+    //     // console.log(this);
+    //     return (a-b);
+    // }
+    // add(5,3);
+    // function animal(){
+    //     this.name = "ani";
+    //     this.showName = function(){
+    //         alert(this.name);
+    //         console.log(this);
+    //     };
+    // }
+    // function cat(){
+    //     this.name = "cat";
+    // }
+    // var an = new animal();
+    // var c = new cat();
+    // an.showName.call(c,","); //输出cat，因为调用showName时，里面的this是cat
+
+    var x =0;
+    function test() {
+        console.log(this.x);
+    }
+    var obj = {};
+    obj.x = 1;
+    obj.m = test;
+    obj.m(); //
+
+</script>
+
+</body>
+</html>
