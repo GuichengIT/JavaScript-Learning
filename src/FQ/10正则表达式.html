@@ -105,37 +105,38 @@
     // console.log(pattern.exec(str));
 
 
-    var oddP = getByClassName("odd");
-    var evenp = getByClassName("even");
-    for(var i=0;i<oddP.length;i++){
-        oddP[i].style.backgroundColor = "red";
-    }
-    for(var i=0;i<evenp.length;i++){
-        evenp[i].style.backgroundColor = "green";
-    }
-    // 实现这个document.getElementsByClassName()方法
-    function getByClassName(className,parentNode){
-        if(!document.getElementsByClassName){
-            return document.getElementsByClassName(className);
-        }else{
-             console.log(1);
-             parentNode = parentNode || document;
-             var nodeList = [];
-             var pattern1 = /\bodd\b/;
-             var pattern =new RegExp("\\b"+className+"\\b") ;
-             var allNodes = parentNode.getElementsByTagName("*");
-             for(var i=0;i<allNodes.length;i++){
-                 if(pattern.test(allNodes[i].className)){
-                     nodeList.push(allNodes[i]);
-                 }
-             }
-             return nodeList;
+    // var oddP = getByClassName("odd");
+    // var evenp = getByClassName("even");
+    // for(var i=0;i<oddP.length;i++){
+    //     oddP[i].style.backgroundColor = "red";
+    // }
+    // for(var i=0;i<evenp.length;i++){
+    //     evenp[i].style.backgroundColor = "green";
+    // }
+    // // 实现这个document.getElementsByClassName()方法
+    // function getByClassName(className,parentNode){
+    //     if(!document.getElementsByClassName){
+    //         return document.getElementsByClassName(className);
+    //     }else{
+    //          console.log(1);
+    //          parentNode = parentNode || document;
+    //          var nodeList = [];
+    //          var pattern1 = /\bodd\b/;
+    //          var pattern =new RegExp("\\b"+className+"\\b") ;
+    //          var allNodes = parentNode.getElementsByTagName("*");
+    //          for(var i=0;i<allNodes.length;i++){
+    //              if(pattern.test(allNodes[i].className)){
+    //                  nodeList.push(allNodes[i]);
+    //              }
+    //          }
+    //          return nodeList;
+    //
+    //
+    //     }
+    //
+    // }
 
-
-        }
-
-    }
-
+    
 
 
 
