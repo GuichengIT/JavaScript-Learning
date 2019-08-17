@@ -7,14 +7,14 @@
 <body>
     <script type="text/javascript">
         function F(){
-            var t = 3;
+            this.t = 3;
             this.f1 = function (){
-                alert(t);
+                alert(this.t);
             };
             // return this.f1;
         }
         var obj = new F();
-        obj.f1();
+        delete obj.f1;
     </script>
 </body>
 </html>
