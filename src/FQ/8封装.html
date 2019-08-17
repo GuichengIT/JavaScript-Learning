@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>封装</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function F(){
+            var t = 3;
+            this.f1 = function (){
+                alert(t);
+            };
+            // return this.f1;
+        }
+        var obj = new F();
+        obj.f1();
+    </script>
+</body>
+</html>
