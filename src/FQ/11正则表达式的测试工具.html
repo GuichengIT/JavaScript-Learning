@@ -69,6 +69,14 @@
             }
         }
         matchingBtn.onclick = function () {
+            if(!userText.value){
+                alert("请输入待匹配的文本!");
+                userText.focus();
+            }
+            if(!userRegExp.value){
+                alert("请输入正则表达式！");
+                userRegExp.focus();
+            }
             pattern = new RegExp(userRegExp.value,modifier);
             matchingResult.value = pattern.exec(userText.value)|| "没有匹配";
         };
