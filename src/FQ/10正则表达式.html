@@ -247,8 +247,20 @@
 
     // 匹配HTML标签
     // <input type="text" value=">" name="username" />;
-    var str = '<input type="text" value=">" name="username" />';
-    var pattern = //;
+    // var str = '<p class="odd" id="odd">123</p>';
+    // var pattern = /<\/?[a-zA-Z]+(\s+[a-zA-Z]+=".*")*>/g;
+    // console.log(pattern.exec(str));
+
+
+    // var str = '<input type="text" value=">" name="username" />';
+    // var pattern = /^<[a-zA-Z]+\s+[a-zA-Z]+="[a-zA-Z]*">/g;
+    // console.log(str.match(pattern));
+
+
+
+    var str1 = '<p class="odd" id="odd">123</p>';
+    var pattern1 = /^<[a-zA-Z]+(\s+[a-zA-Z]+=".*")*>/;
+    console.log(pattern1.exec(str1));
 </script>
 
 </body>
