@@ -29,7 +29,7 @@
             border: 1px solid #ccc;
         }
         #regexp .readonly{
-            /*background-color: #ccc;*/
+            background-color: rgba(0,0,0,0.02);
         }
     </style>
 </head>
@@ -39,6 +39,8 @@
         <h1 class="title">
             正则表达式测试工具
         </h1>
+
+        <!-- 匹配工具 -->
         <textarea id="userText" class="textbox" placeholder="在此输入待匹配的文本"></textarea>
         <p>
             正则表达式：<input type="text" id="userRegExp" class="textfield"
@@ -50,6 +52,18 @@
         </p>
         匹配结果：
         <div id="matchingResult" class="textbox readonly"></div>
+
+        <!-- 替换工具 -->
+        <p>
+            替换文本：<input type="text" id="userReplace" class="textfield"
+                         placeholder="在此输入替换文本" />
+            <input type="checkbox" name="userModifier" value="i">忽略大小写
+            <input type="checkbox" name="userModifier" value="g">全局匹配
+            <input type="checkbox" name="userModifier" value="m">多行匹配
+            <input type="button" id="replaceBtn" value="替换" />
+        </p>
+        替换结果：
+        <div id="replaceResult" class="textbox readonly"></div>
     </div>
 
 <!--js代码-->
@@ -58,7 +72,12 @@
         userRegExp = document.getElementById("userRegExp"),
         userModifier = document.getElementsByName("userModifier"),
         matchingBtn = document.getElementById("matchingBtn"),
-        matchingResult = document.getElementById("matchingResult");
+        matchingResult = document.getElementById("matchingResult"),
+
+        userReplace = document.getElementById("userReplace"),
+        replaceBtn = document.getElementById("replaceBtn"),
+        replaceResult = document.getElementById("replaceResult");
+
     var pattern,
         modifier = '';
         for(var i=0;i<userModifier.length;i++){
@@ -81,12 +100,9 @@
                 userRegExp.focus();
             }
             pattern = new RegExp(userRegExp.value,modifier);
-            console.log(userText.value);
-            console.log(pattern);
             matchingResult.innerHTML = userText.value.replace(pattern, function($0){
                 return "<span style='background-color: red;: red'>"+$0+"</span>"
             } || "没有匹配");
-            console.log(matchingResult.innerHTML);
         };
 
 
