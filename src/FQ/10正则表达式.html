@@ -201,18 +201,54 @@
         // var pattern = /(js)/;
         // document.write(str.replace(pattern,"<strong style='color:red'>$1</strong>"));
         // 过滤敏感词
-         var str = "中国军队和阿扁一起办证";
-         var pattern = /国军|阿扁|办证/g;
-         console.log(str.replace(pattern,function ($0) {
-             var result = "";
-             for(var i=0;i<$0.length;i++){
-                 result += '*';
-             }
-             return result;
-         }));
+        //  var str = "中国军队和阿扁一起办证";
+        //  var pattern = /国军|阿扁|办证/g;
+        //  console.log(str.replace(pattern,function ($0) {
+        //      var result = "";
+        //      for(var i=0;i<$0.length;i++){
+        //          result += '*';
+        //      }
+        //      return result;
+        //  }));
 
+         //验证QQ号
+         /*
+         * 1. 至少5位
+         * 2. 全数字
+         * 3. 目前最多12位
+         * 4. 非0开头
+         * */
+         // var str = "257378958231";
+    // var pattern = /^[1-9]\d{4,11}$/;
+    // console.log(pattern.exec(str));
 
-         // console.log(str.replace(pattern,function($0)))
+    // 去除字符串前后的空格
+    // var str = "   zhang    ";
+    // var pattern = /^\s+|\s+$/;
+    // console.log("|"+str.replace(pattern,'')+"|");
+    //
+    // var str1 = "      zhang      ";
+    // var pattern1 = /^\s+/;
+    // var pattern2 = /\s+$/;
+    // console.log(str1.replace(pattern1,'').replace(pattern2,'')+"|");
+
+    //转驼峰
+    /* css中：background-color
+     *  js中：backgroundColor
+     * jquery: $(elem).css("background-color", 'red');
+     */
+     // function toCamel(str){
+     //     var pattern = /-([a-zA-Z])/;
+     //     return str.replace(pattern,function(all,$1){
+     //         return $1.toUpperCase();
+     //     });
+     // }
+     // console.log(toCamel("background-color"));
+
+    // 匹配HTML标签
+    // <input type="text" value=">" name="username" />;
+    var str = '<input type="text" value=">" name="username" />';
+    var pattern = //;
 </script>
 
 </body>
