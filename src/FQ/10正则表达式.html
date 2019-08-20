@@ -276,7 +276,18 @@
     // console.log(str.match(pattern1));
 
     // 邮箱
-    //
+    // var str = "alex_1.a-sdasd.asd.com@asdfn_sd.sfdf.cn";
+    // var pattern = /^[a-z0-9]*(?:[\.\_\-][a-z0-9]+)+@[a-z0-9]*(?:[\.\-\_][a-z0-9]+)*$/;
+    // console.log(str.match(pattern));
+
+    // URL
+    // 协议 主机名 端口号 路径
+    var str = "http://www.baidu.com:80/index.html";
+    var pattern = /^(?:(https)?:\/\/)?([^\/:]+)(:[0-9]+)(\/.+)$/;
+    str.match(pattern);
+
+
+
 
 
 
