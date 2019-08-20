@@ -5,17 +5,47 @@
     <title>正则表达式的测试工具</title>
 <!--css代码-->
     <style type="text/css">
-        #regexp{
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        .wrap {
+            margin: 60px auto;
+            width: 800px;
+        }
+        .regExpList {
+            margin: 20px auto;
+            float: right;
+            width: 140px;
+            height: 580px;
+            border: 1px solid #ccc;
+            font-family: "华文楷体";
+        }
+        .regExpList dt {
+            margin-top: 10px;
+        }
+        .regExpList dd {
+            margin: 10px 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .regExpList dd:hover{
+            color: #ccc;
+        }
+        #regexp {
+            float:left;
             width: 650px;
-            margin: 100px auto;
+            height: 580px;
+            margin: 20px auto;
             font-size: 14px;
         }
-        #regexp .title{
+        .title {
             color: #777;
             font-size: 24px;
             text-align: center;
         }
-        #regexp .textbox{
+        #regexp .textbox {
             width: 638px;
             height: 150px;
             border: 1px solid #ccc;
@@ -23,7 +53,7 @@
             padding: 5px;
             resize: none;
         }
-        #regexp .textfield{
+        #regexp .textfield {
             width: 215px;
             padding: 5px;
             border: 1px solid #ccc;
@@ -33,13 +63,29 @@
         }
     </style>
 </head>
-<body>
-<!--html代码-->
-    <div id="regexp">
-        <h1 class="title">
-            正则表达式测试工具
-        </h1>
 
+<!--html代码-->
+<div class="wrap">
+    <h1 class="title">
+        正则表达式测试工具
+    </h1>
+    <div class="regExpList">
+           <dl id="regExpList">
+               <dt>常用正则表达式</dt>
+               <dd title="/[\u4e00-\u9fa5]/">中文汉字</dd>
+               <dd>QQ</dd>
+               <dd>邮箱</dd>
+               <dd>URL</dd>
+               <dd>HTML标签</dd>
+               <dd>转驼峰</dd>
+               <dd>中文汉字</dd>
+               <dd>中文汉字</dd>
+               <dd>中文汉字</dd>
+               <dd>中文汉字</dd>
+           </dl>
+
+    </div>
+    <div id="regexp">
         <!-- 匹配工具 -->
         <textarea id="userText" class="textbox" placeholder="在此输入待匹配的文本"></textarea>
         <p>
@@ -62,7 +108,7 @@
         替换结果：
         <div id="replaceResult" class="textbox readonly"></div>
     </div>
-
+</div>
 <!--js代码-->
 <script type="text/javascript">
     var userText = document.getElementById("userText"),
@@ -73,7 +119,10 @@
 
         userReplace = document.getElementById("userReplace"),
         replaceBtn = document.getElementById("replaceBtn"),
-        replaceResult = document.getElementById("replaceResult");
+        replaceResult = document.getElementById("replaceResult"),
+
+        regExpList = document.getElementById("regExpList").getElementsByTagName("dd");
+    
 
     var pattern;
 
