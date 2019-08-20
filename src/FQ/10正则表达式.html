@@ -276,16 +276,19 @@
     // console.log(str.match(pattern1));
 
     // 邮箱
-    // var str = "alex_1.a-sdasd.asd.com@asdfn_sd.sfdf.cn";
-    // var pattern = /^[a-z0-9]*(?:[\.\_\-][a-z0-9]+)+@[a-z0-9]*(?:[\.\-\_][a-z0-9]+)*$/;
+    // var str = "357378958@qq.com";
+    // var pattern = /^[a-z0-9]*(?:[\.\_\-][a-z0-9]+)*@[a-z0-9]*(?:[\.\-\_][a-z0-9]+)*$/;
     // console.log(str.match(pattern));
 
     // URL
     // 协议 主机名 端口号 路径
-    //  var str = "http://www.baidu.com:80/index.html";
-    // var pattern = /^(?:[a-z]+:\/\/)?[^\/:]+:[0-9]+\/.+$/;
+    // var str = "www.baidu.com";
+    // var pattern = /^([a-z]+:\/\/)*[^\/:]+(:[0-9]+)*\/*.*$/;
     // console.log(str.match(pattern));
 
+    var str = 12585103344;
+    var pattern = "^([a-z]+:\/\/)*[^\/:]+(:[0-9]+)*\/*.*$";
+    console.log(str.match(pattern));
     // 可以将常用的正则表达式封装到一个对象里
     // var regExpObj = {
     //     URL: /^(?:[a-z]+:\/\/)?[^\/:]+:[0-9]+\/.+$/,
