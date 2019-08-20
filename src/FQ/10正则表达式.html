@@ -237,13 +237,13 @@
      *  js中：backgroundColor
      * jquery: $(elem).css("background-color", 'red');
      */
-     // function toCamel(str){
-     //     var pattern = /-([a-zA-Z])/;
-     //     return str.replace(pattern,function(all,$1){
-     //         return $1.toUpperCase();
-     //     });
-     // }
-     // console.log(toCamel("background-color"));
+     function toCamel(str){
+         var pattern = /-([a-zA-Z])/;
+         return str.replace(pattern,function(all,$1){
+             return $1.toUpperCase();
+         });
+     }
+     console.log(toCamel("background-color"));
 
     // 匹配HTML标签
     // <input type="text" value=">" name="username" />;
@@ -286,9 +286,14 @@
     // var pattern = /^([a-z]+:\/\/)*[^\/:]+(:[0-9]+)*\/*.*$/;
     // console.log(str.match(pattern));
 
-    var str = 12585103344;
-    var pattern = "^([a-z]+:\/\/)*[^\/:]+(:[0-9]+)*\/*.*$";
-    console.log(str.match(pattern));
+    // var str = 12585103344;
+    // var pattern = "^([a-z]+:\/\/)*[^\/:]+(:[0-9]+)*\/*.*$";
+    // console.log(str.match(pattern));
+
+    // 手机号码
+    // var str = "13585103344";
+    // var pattern = /^(13)[0-9]{9}|(147)[0-7]{8}|(15)[0,1,2,3,5,6,7,8,9]{1}[0-9]{8}|(18)[0,2,5,6,7,8,9]{1}[0-9]{8}$/;
+    // console.log(str.match(pattern));
     // 可以将常用的正则表达式封装到一个对象里
     // var regExpObj = {
     //     URL: /^(?:[a-z]+:\/\/)?[^\/:]+:[0-9]+\/.+$/,
