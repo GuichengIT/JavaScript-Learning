@@ -282,10 +282,15 @@
 
     // URL
     // 协议 主机名 端口号 路径
-    var str = "http://www.baidu.com:80/index.html";
-    var pattern = /^(?:(https)?:\/\/)?([^\/:]+)(:[0-9]+)(\/.+)$/;
-    str.match(pattern);
+    //  var str = "http://www.baidu.com:80/index.html";
+    // var pattern = /^(?:[a-z]+:\/\/)?[^\/:]+:[0-9]+\/.+$/;
+    // console.log(str.match(pattern));
 
+    // 可以将常用的正则表达式封装到一个对象里
+    // var regExpObj = {
+    //     URL: /^(?:[a-z]+:\/\/)?[^\/:]+:[0-9]+\/.+$/,
+    //     chinese: /[\u4e00-\u9fa5]/
+    // };
 
 
 
