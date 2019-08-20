@@ -251,16 +251,22 @@
     // var pattern = /<\/?[a-zA-Z]+(\s+[a-zA-Z]+=".*")*>/g;
     // console.log(pattern.exec(str));
 
+    // var str1 = '<p class="odd" id="odd">123</p>';
+    // var pattern1 = /^<[a-zA-Z]+(\s+[a-zA-Z]+=".*")*>/;
+    // console.log(pattern1.exec(str1));
 
-    // var str = '<input type="text" value=">" name="username" />';
-    // var pattern = /^<[a-zA-Z]+\s+[a-zA-Z]+="[a-zA-Z]*">/g;
-    // console.log(str.match(pattern));
+    //下面的写法有bug，如果标签属性值双引号间有>就出问题了
+    // var str1 = '<p class="odd" id="odd">123</p>';
+    // var pattern1 = /^<[^>]+>/;
+    // console.log(pattern1.exec(str1));
+
+    
 
 
 
-    var str1 = '<p class="odd" id="odd">123</p>';
-    var pattern1 = /^<[a-zA-Z]+(\s+[a-zA-Z]+=".*")*>/;
-    console.log(pattern1.exec(str1));
+
+
+
 </script>
 
 </body>
