@@ -18,12 +18,12 @@
             margin: 20px auto;
             float: right;
             width: 140px;
-            height: 600px;
+            height: 580px;
             border: 1px solid #ccc;
             font-family: "华文楷体";
         }
         .regExpList dt {
-            margin-top: 10px;
+            margin-top: 5px;
         }
         .regExpList dd {
             margin: 4px 10px;
@@ -36,7 +36,7 @@
         #regexp {
             float:left;
             width: 650px;
-            height: 600px;
+            height: 580px;
             margin: 20px auto;
             font-size: 14px;
         }
@@ -77,9 +77,9 @@
                <dd title="^[a-z0-9]*(?:[\.\_\-][a-z0-9]+)*@[a-z0-9]*(?:[\.\-\_][a-z0-9]+)*$">邮箱</dd>
                <dd title="^([a-z]+:\/\/)*[^\/:]+(:[0-9]+)*\/*.*$">URL</dd>
                <dd>HTML标签</dd>
-               <dd>css标识符转JS</dd>
+               <dd id="css-js" title="-([a-zA-Z])">css标识符转JS</dd>
                <dd>密码</dd>
-               <dd>手机号码</dd>
+               <dd title="^(13)[0-9]{9}|(147)[0-7]{8}|(15)[0,1,2,3,5,6,7,8,9]{1}[0-9]{8}|(18)[0,2,5,6,7,8,9]{1}[0-9]{8}$">手机号码</dd>
                <dd>身份证号</dd>
                <dd>邮政编码</dd>
                <dd>中文汉字</dd>
@@ -174,11 +174,15 @@
             pattern = new RegExp(userRegExp.value, modifier);
             console.log(pattern);
             if (pattern.test(userText.value)) {
-                matchingResult.innerHTML = userText.value.replace(pattern, function ($0) {
+                matchingResult.innerHTML = userText.value.replace(pattern, function ($0,$1) {
+                    if(userRegExp.value === "-([a-zA-Z])"){
+                        userReplace.value = $1.toUpperCase();
+                        replaceResult.innerHTML = userText.value.replace(pattern, "<span style='background-color: pink;: red'>"+userReplace.value.toUpperCase()+"</span>");
+                    }
                     return "<span style='background-color: red;: red'>" + $0 + "</span>";
                 });
             } else {
-                matchingResult.innerHTML = "<span>匹配不成功，请重新输入正则表达式</span>"   ;
+                matchingResult.innerHTML = "<span>匹配不成功，请输入正确的正则表达式或文本</span>"   ;
             }
         };
 
@@ -194,7 +198,7 @@
         }
         pattern = new RegExp(userRegExp.value,modifier);
         console.log(pattern);
-        replaceResult.innerHTML = userText.value.replace(pattern, "<span style='background-color: pink;: red'>"+userReplace.value+"</span>" || "没有匹配");
+        replaceResult.innerHTML = userText.value.replace(pattern, "<span style='background-color: pink;: red'>"+userReplace.value+"</span>");
     };
 
 
