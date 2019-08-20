@@ -257,11 +257,15 @@
 
     //下面的写法有bug，如果标签属性值双引号间有>就出问题了
     // var str1 = '<p class="odd" id="odd">123</p>';
-    // var pattern1 = /^<[^>]+>/;
+    // var pattern1 = /^<[^>]+>/g;
     // console.log(pattern1.exec(str1));
 
+    // 下面的代码解决这个问题
+    var str = "<input type='text' value='>' name='username' />";
+    var pattern = /^<[^"'>]|"[^"]"|'[^']'>/g;//思路是将引号之内的内容和引号之外的内容分别匹配出来
+    var pattern1 = /<([^"'>])*/g;//这样写程序输出结果为“<input type=”
+    console.log(str.match(pattern1));
     
-
 
 
 
