@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <style type="text/css">
+        label {
+            cursor: pointer; }
+
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box; }
+
+        a {
+            color: inherit; }
+
+        body {
+            background: rgba(0, 0, 0, 0.1); }
+
+        #Total {
+            box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+            background: white;
+            width: 60%;
+            min-height: 800px;
+            margin: 50px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            border-left: 0.5px solid rgba(0, 0, 0, 0.32);
+            border-right: 0.5px solid rgba(0, 0, 0, 0.32);
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.32); }
+        #Total #Title {
+            background: #6385d1;
+            color: white;
+            width: 100%;
+            letter-spacing: 5px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold; }
+        #Total .item, #Total .item_ {
+            width: 90%;
+            margin: 10px auto;
+            height: 25px;
+            line-height: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative; }
+        #Total .item.item, #Total .item_.item {
+            margin-top: 20px; }
+        #Total .item .important, #Total .item_ .important {
+            color: #6385d1; }
+        #Total .item input, #Total .item_ input {
+            position: absolute;
+            width: 50%;
+            height: 40px;
+            top: 50%;
+            left: 15%;
+            margin-top: -20px;
+            font-size: 15px;
+            outline: none;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            transition: box-shadow .5s; }
+        #Total .item input:focus, #Total .item_ input:focus {
+            box-shadow: 1px 1px 10px #6385d1, 1px 1px 10px #6385d1; }
+        #Total .item.item_, #Total .item_.item_ {
+            width: 60%;
+            height: 30px;
+            border-bottom: .5px solid #6385d1;
+            border-radius: 2px;
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.6);
+            letter-spacing: 2px;
+            font-weight: lighter;
+            padding-left: 10px;
+            margin: 0;
+            margin-left: 5%; }
+        #Total #end {
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            border-top: 1px solid rgba(0, 0, 0, 0.8);
+            width: 100%;
+            letter-spacing: 2px; }
+        #Total #end #choose {
+            margin-right: 20px; }
+        #Total #end #handup {
+            width: 130px;
+            height: 30px;
+            border: none;
+            background: #6385d1;
+            color: white;
+            border-radius: 3px;
+            margin-left: 10px; }
+
+        /*# sourceMappingURL=style.css.map */
+
+
+    </style>
+</head>
+<body>
+<div id="Total">
+    <div id="Title">-- 账户信息 --</div>
+        <div class="item">
+            <span class="important">*</span>
+            <label for="userAccount">用户名 :</label>
+            <input type="text" id="userAccount" placeholder=" 用户设置成功后不可修改">
+        </div>
+        <p class="item_"></p>
+        <br>
+        <!--_____________________________________________________________________________________________-->
+        <div class="item">
+            <span class="important">*</span>
+            <label for="userPass">登录密码 :</label>
+            <input type="password" id="userPass" placeholder=" 6-20位字母,数字或符号">
+        </div>
+        <p class="item_"></p>
+        <br>
+        <!--_____________________________________________________________________________________________-->
+        <div class="item">
+            <span class="important">*</span>
+            <label for="userPass_">确认密码 :</label>
+            <input type="password" id="userPass_">
+        </div>
+        <p class="item_"></p>
+        <br>
+        <!--_____________________________________________________________________________________________-->
+        <div class="item">
+            <span class="important">*</span>
+            <label for="userName">姓名 :</label>
+            <input type="text" id="userName" placeholder=" 请输入姓名,中文且最多五位">
+        </div>
+        <p class="item_"></p>
+        <br>
+        <!--_____________________________________________________________________________________________-->
+        <div class="item">
+            <span class="important">*</span>
+            <label for="information">身份证号 :</label>
+            <input type="text" id="information" placeholder=" 请输入身份证号">
+        </div>
+        <p class="item_"></p>
+        <br>
+        <!--_____________________________________________________________________________________________-->
+        <div class="item">
+            <span class="important">*</span>
+            <label for="email">邮箱 :</label>
+            <input type="email" id="email" placeholder=" 请输入正确邮箱格式">
+        </div>
+        <p class="item_"></p>
+        <br>
+        <!--_____________________________________________________________________________________________-->
+        <div class="item">
+            <span class="important">*</span>
+            <label for="telephone">手机号码 :</label>
+            <input type="tel" id="telephone" placeholder=" 请输入您的手机号码">
+        </div>
+        <p class="item_"></p>
+        <br>
+        <!--__________________________________________________________________________________________________-->
+        <div id="end">
+            <input type="checkbox" id="choose">
+            <label for="choose">我已阅读并同意遵守规定</label>
+            <button id="handup">确认提交</button>
+    </div>
+</div>
+
+<!--js代码部分-->
+<script type="text/javascript">
+
+    // 获取元素
+    var items = document.querySelectorAll(".item_");//参数是一个合法的css选择器的名字
+    var userAccount = document.getElementById("userAccount");
+    var userPassword = document.getElementById("userPass");
+    var userPassword_ = document.getElementById("userPass_");
+    var userName = document.getElementById("userName");
+
+    // 正则
+    var reg = /正则/;
+
+    // 标志位设置
+    var test1 = false;//设置用户名的一个标志位，初始值为false，当用户名输入正确时为true，最后提交时只有当所有的标志位都为true才会进行提交
+    var test2 = false;//密码标志位
+    var test3 = false;//确认密码标志位
+    var test4 = false;//姓名标志位
+
+    /////////////////////用户名验证//////////////////////////
+    //当用户名输入框获得焦点时
+    userAccount.onfocus = function(){
+        items[0].innerHTML = "请输入6-18位的数字，字母，_";
+    };
+    // 当鼠标离开用户输入框，产生验证
+    userAccount.onblur = function() { //失去焦点时
+        var reg = /^\w{6,18}$/;
+        if(userAccount.value == ""){
+            items[0].innerHTML = "用户名称不能为空";
+            items[0].style.color = "red";
+        }else{
+            if(!reg.exec(userAccount.value)){
+                items[0].innerHTML = "请输入6-18位的数字，字母，_";
+                items[0].style.color = "red";
+            }else{
+                items[0].innerHTML = "格式正确";
+                items[0].style.color = "green";
+                test1 = true;
+            }
+        }
+    };
+
+    /////////////////////密码验证//////////////////////////
+    //当密码输入框获得焦点时
+    userPassword.onfocus = function(){
+        items[1].innerHTML = "请输入6-20位数字，字母，_";
+        items[1].style.color = "red";
+    };
+    // 当密码输入框失去焦点时
+    userPassword.onblur = function () {
+        var reg = /^\w{6,20}$/;
+        if(userPassword.value == ""){
+            items[1].innerHTML = "用户名称不能为空";
+            items[1].style.color = "red";
+        }else{
+            if(!reg.exec(userPassword.value)){
+                items[1].innerHTML = "请输入6-20位的数字，字母，_";
+                items[1].style.color = "red";
+            }else{
+                items[1].innerHTML = "格式正确";
+                items[1].style.color = "green";
+                test2 = true;
+            }
+        }
+    };
+
+    /////////////////////确认密码验证//////////////////////////
+    userPassword_.onfocus = function(){
+        if(test2 == true){
+            items[2].innerHTML = "请再次输入密码";
+        }else{
+            items[2].innerHTML = "请在登录密码框中输入正确的密码"};
+            items[2].style.color = "red";
+    };
+    userPassword_.onblur = function(){
+        if(test2 == true){
+            if(this.value == userPassword.value){
+                items[2].innerHTML = "确认密码正确";
+                items[2].style.color = "green";
+                test3 = true;
+            }else{
+                items[2].innerHTML = "确认密码不正确";
+                items[2].style.color = "red";
+            }
+        }else{
+            items[2].innerHTML = "请在登录密码框中输入正确的密码";
+            items[2].style.color = "red";
+        }
+    }
+
+
+
+
+</script>
+
+
+</body>
+</html>
