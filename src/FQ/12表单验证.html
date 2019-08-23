@@ -177,6 +177,10 @@
     var userPassword = document.getElementById("userPass");
     var userPassword_ = document.getElementById("userPass_");
     var userName = document.getElementById("userName");
+    var information = document.getElementById("information");
+    var email = document.getElementById("email");
+    var telephone = document.getElementById("telephone");
+    var handup = document.getElementById("handup");
 
     // 正则
     var reg = /正则/;
@@ -186,6 +190,10 @@
     var test2 = false;//密码标志位
     var test3 = false;//确认密码标志位
     var test4 = false;//姓名标志位
+    var test5 = false;//身份证号标志位
+    var test6 = false;//邮箱标志位
+    var test7 = false;//手机号标志位
+
 
     /////////////////////用户名验证//////////////////////////
     //当用户名输入框获得焦点时
@@ -198,10 +206,12 @@
         if(userAccount.value == ""){
             items[0].innerHTML = "用户名称不能为空";
             items[0].style.color = "red";
+            test1 = false;
         }else{
             if(!reg.exec(userAccount.value)){
                 items[0].innerHTML = "请输入6-18位的数字，字母，_";
                 items[0].style.color = "red";
+                test1 = false;
             }else{
                 items[0].innerHTML = "格式正确";
                 items[0].style.color = "green";
@@ -220,12 +230,14 @@
     userPassword.onblur = function () {
         var reg = /^\w{6,20}$/;
         if(userPassword.value == ""){
-            items[1].innerHTML = "用户名称不能为空";
+            items[1].innerHTML = "登录密码不能为空";
             items[1].style.color = "red";
+            test2 = false;
         }else{
             if(!reg.exec(userPassword.value)){
                 items[1].innerHTML = "请输入6-20位的数字，字母，_";
                 items[1].style.color = "red";
+                test2 = false;
             }else{
                 items[1].innerHTML = "格式正确";
                 items[1].style.color = "green";
@@ -238,9 +250,11 @@
     userPassword_.onfocus = function(){
         if(test2 == true){
             items[2].innerHTML = "请再次输入密码";
+            test3 = false;
         }else{
             items[2].innerHTML = "请在登录密码框中输入正确的密码"};
             items[2].style.color = "red";
+            test3 = false;
     };
     userPassword_.onblur = function(){
         if(test2 == true){
@@ -251,12 +265,14 @@
             }else{
                 items[2].innerHTML = "确认密码不正确";
                 items[2].style.color = "red";
+                test3 = false;
             }
         }else{
             items[2].innerHTML = "请在登录密码框中输入正确的密码";
             items[2].style.color = "red";
+            test3 = false;
         }
-    }
+    };
 
     /////////////////////姓名验证//////////////////////////
     userName.onfocus = function(){
@@ -264,28 +280,108 @@
         items[3].style.color = "green";
     };
     userName.onblur = function(){
-        var reg = /[^\u4e00-\u9fa5]{2,5}$/;
+        var reg = /^[\u4e00-\u9fa5]{2,5}$/;
         if(this.value == ""){
             items[3].innerHTML = "姓名不能为空"
             items[3].style.color = "red";
+            test4 = false;
         }else{
-            if(!this.value.exec(reg)){
+            if(!reg.exec(this.value)){
                 items[3].innerHTML = "请输入2-4位正确的中文名字";
-                item[3].style.color = "red";
+                items[3].style.color = "red";
+                test4 = false;
             }else{
                 items[3].innerHTML = "姓名格式正确";
-                item[3].style.color = "green";
+                items[3].style.color = "green";
                 test4 = true;
             }
         }
     }
 
-    /////////////////////姓名验证//////////////////////////
+    /////////////////////身份证号验证//////////////////////////
+    information.onfocus = function(){
+        items[4].innerHTML =  "请输入身份证号";
+        items[4].style.color = "green";
+    };
+    information.onblur = function(){
+        var reg = /^\d{17}[0-9x]$/;
+        if(this.value == ""){
+            items[4].innerHTML = "身份证号不能为空"
+            items[4].style.color = "red";
+            test5 = false;
+        }else{
+            if(!reg.exec(this.value)){
+                items[4].innerHTML = "请输入18位正确的身份证号";
+                item[4].style.color = "red";
+                test5 = false;
+            }else{
+                items[4].innerHTML = "身份证号格式正确";
+                items[4].style.color = "green";
+                test5 = true;
+            }
+        }
+    }
 
+    /////////////////////邮箱验证//////////////////////////
+    email.onfocus = function(){
+        items[5].innerHTML =  "请输入邮箱";
+        items[5].style.color = "green";
+    };
+    email.onblur = function(){
+        var reg = /^\w+@\w+\.[a-zA-Z]{1,5}$/;
+        if(this.value == ""){
+            items[5].innerHTML = "邮箱不能为空";
+            items[5].style.color = "red";
+            test6 = false;
+        }else{
+            if(!reg.exec(this.value)){
+                items[5].innerHTML = "请输入正确格式的邮箱";
+                items[5].style.color = "red";
+                test6 = false;
+            }else{
+                items[5].innerHTML = "邮箱格式正确";
+                items[5].style.color = "green";
+                test6 = true;
+            }
+        }
+    }
 
+    /////////////////////手机号验证//////////////////////////
+    telephone.onfocus = function(){
+        items[6].innerHTML =  "请输入手机号";
+        items[6].style.color = "green";
+    };
+    telephone.onblur = function(){
+        var reg = /^\d{11}$/;
+        if(this.value == ""){
+            items[6].innerHTML = "手机号不能为空";
+            items[6].style.color = "red";
+            test7 = false;
+        }else{
+            if(!reg.exec(this.value)){
+                items[6].innerHTML = "请输入正确格式的手机号";
+                items[6].style.color = "red";
+                test7 = false;
+            }else{
+                items[6].innerHTML = "手机号格式正确";
+                items[6].style.color = "green";
+                test7 = true;
+            }
+        }
+    }
 
-
-
+    /////////////////////提交验证//////////////////////////
+    // 注册的时候前面的必须全是正确的
+    handup.onclick = function(){
+      if(test1==false||test2==false||
+          test3==false||test4==false||
+          test5==false||test2==false||
+          test7==false){
+          alert("您填写的信息有误请重新填写");
+      }else{
+          alert("正在提交，请稍候");
+      }
+    };
 </script>
 
 
