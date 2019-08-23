@@ -258,6 +258,31 @@
         }
     }
 
+    /////////////////////姓名验证//////////////////////////
+    userName.onfocus = function(){
+        items[3].innerHTML =  "请输入中文名字";
+        items[3].style.color = "green";
+    };
+    userName.onblur = function(){
+        var reg = /[^\u4e00-\u9fa5]{2,5}$/;
+        if(this.value == ""){
+            items[3].innerHTML = "姓名不能为空"
+            items[3].style.color = "red";
+        }else{
+            if(!this.value.exec(reg)){
+                items[3].innerHTML = "请输入2-4位正确的中文名字";
+                item[3].style.color = "red";
+            }else{
+                items[3].innerHTML = "姓名格式正确";
+                item[3].style.color = "green";
+                test4 = true;
+            }
+        }
+    }
+
+    /////////////////////姓名验证//////////////////////////
+
+
 
 
 
