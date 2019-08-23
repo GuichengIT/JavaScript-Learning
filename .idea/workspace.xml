@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c53ea77-4f8f-4d99-b6b9-fd1d422c2d8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FQ/6函数参数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/1meetjQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/2travelPhotoAlbum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jQuery/js/jquery-3.4.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,82 +33,86 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Event/02事件定义.html">
+        <entry file="file://$PROJECT_DIR$/src/FQ/10正则表达式.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="5302">
+              <caret line="241" column="37" selection-start-line="241" selection-start-column="37" selection-end-line="241" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FQ/11正则表达式的测试工具.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3256">
+              <caret line="170" column="32" selection-start-line="170" selection-start-column="32" selection-end-line="170" selection-end-column="32" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FQ/12表单验证.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4180">
+              <caret line="190" column="31" selection-start-line="190" selection-start-column="31" selection-end-line="190" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jQuery/1meetjQuery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FQ/2事件委托.html">
+        <entry file="file://$PROJECT_DIR$/src/jQuery/2travelPhotoAlbum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="364">
+              <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FQ/3js预解析.html">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Typora/themes/newsprint.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Typora/themes/night.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="132">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FQ/5递归.html">
+        <entry file="file://G:/慕课网前端课程/慕课前端系统班/前端攻城狮2019版笔记源码/笔记源码/前端攻城狮笔记源码/第二阶段-组件化网页开发/1-深入了解js/源码/js表单验证案例（源码）/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="110">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FQ/7创建对象.html">
+        <entry file="file://G:/慕课网前端课程/慕课前端系统班/前端攻城狮2019版笔记源码/笔记源码/前端攻城狮笔记源码/第二阶段-组件化网页开发/1-深入了解js/源码/js表单验证案例（源码）/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FQ/6函数参数.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FQ/4函数定义表达式访问问题.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Event/8事件类型.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="42" selection-start-line="42" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Event/9小项目.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-end-line="94" />
             </state>
           </provider>
         </entry>
@@ -112,12 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js-function/program/24浮点数值舍入误差.html" />
-        <option value="$PROJECT_DIR$/js-function/program/25null和undefined转换为对象.html" />
-        <option value="$PROJECT_DIR$/JS-Other/12自增自减运算符.html" />
-        <option value="$PROJECT_DIR$/JS-Other/变量接收数组值.html" />
-        <option value="$PROJECT_DIR$/JS-Other/13变量接收数组值.html" />
-        <option value="$PROJECT_DIR$/JS-Function/program/24函数的原型.html" />
         <option value="$PROJECT_DIR$/JS-Array/01稀疏数组.html" />
         <option value="$PROJECT_DIR$/DOM/01DOM概念.html" />
         <option value="$PROJECT_DIR$/JS-Object/23体会面向过程和面向对象的编程思想.html" />
@@ -160,6 +174,15 @@
         <option value="$PROJECT_DIR$/src/FQ/函数参数.html" />
         <option value="$PROJECT_DIR$/src/FQ/6函数参数.html" />
         <option value="$PROJECT_DIR$/src/FQ/7创建对象.html" />
+        <option value="$PROJECT_DIR$/src/FQ/8封装.html" />
+        <option value="$PROJECT_DIR$/src/FQ/9call,apply.html" />
+        <option value="$PROJECT_DIR$/src/FQ/10正则表达式.html" />
+        <option value="$PROJECT_DIR$/src/FQ/11正则表达式的测试工具.html" />
+        <option value="G:/慕课网前端课程/慕课前端系统班/前端攻城狮2019版笔记源码/笔记源码/前端攻城狮笔记源码/第二阶段-组件化网页开发/1-深入了解js/源码/js表单验证案例（源码）/index.html" />
+        <option value="$PROJECT_DIR$/src/FQ/12表单验证.html" />
+        <option value="$PROJECT_DIR$/src/jQuery/1认识jQuery.html" />
+        <option value="$PROJECT_DIR$/src/jQuery/js/2travelPhotoAlbum.html" />
+        <option value="$PROJECT_DIR$/src/jQuery/2travelPhotoAlbum.html" />
       </list>
     </option>
   </component>
@@ -170,10 +193,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="627" />
+    <option name="x" value="586" />
     <option name="y" value="3" />
-    <option name="width" value="729" />
-    <option name="height" value="725" />
+    <option name="width" value="764" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,19 +220,27 @@
               <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FQ" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/FQ/7创建对象.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/jQuery" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -218,8 +248,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FrontEndProject\JavaScript-Learning\src\jQuery" />
+      <recent name="E:\FrontEndProject\JavaScript-Learning\src\jQuery\js" />
       <recent name="E:\FrontEndProject\JavaScript-Learning\src\DOM" />
       <recent name="E:\FrontEndProject\JavaScript-Learning\JS-Object" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FrontEndProject\JavaScript-Learning\src\jQuery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,7 +270,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="JSLearning" type="JavascriptDebugType" uri="http://localhost:3703/JavaScript-Learning/src/FQ/7创建对象.html" useBuiltInWebServerPort="true">
+    <configuration name="JSLearning" type="JavascriptDebugType" uri="http://localhost:2995/JavaScript-Learning/src/FQ/11正则表达式的测试工具.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
   </component>
@@ -284,280 +319,14 @@
       <workItem from="1565666188622" duration="17651000" />
       <workItem from="1565790271255" duration="7736000" />
       <workItem from="1565913223843" duration="7204000" />
-      <workItem from="1565961363198" duration="661000" />
-    </task>
-    <task id="LOCAL-00117" summary="update">
-      <created>1564629714878</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1564629714879</updated>
-    </task>
-    <task id="LOCAL-00118" summary="update">
-      <created>1564630137988</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1564630137990</updated>
-    </task>
-    <task id="LOCAL-00119" summary="update">
-      <created>1564631697683</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1564631697684</updated>
-    </task>
-    <task id="LOCAL-00120" summary="update">
-      <created>1564708846298</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1564708846299</updated>
-    </task>
-    <task id="LOCAL-00121" summary="update">
-      <created>1564708946278</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1564708946278</updated>
-    </task>
-    <task id="LOCAL-00122" summary="update">
-      <created>1564711868252</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1564711868252</updated>
-    </task>
-    <task id="LOCAL-00123" summary="update">
-      <created>1564713505265</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1564713505265</updated>
-    </task>
-    <task id="LOCAL-00124" summary="update">
-      <created>1564717725643</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1564717725643</updated>
-    </task>
-    <task id="LOCAL-00125" summary="update">
-      <created>1564842893809</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1564842893810</updated>
-    </task>
-    <task id="LOCAL-00126" summary="update">
-      <created>1564842919663</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1564842919663</updated>
-    </task>
-    <task id="LOCAL-00127" summary="update">
-      <created>1564842949555</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1564842949556</updated>
-    </task>
-    <task id="LOCAL-00128" summary="update">
-      <created>1564842971104</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1564842971105</updated>
-    </task>
-    <task id="LOCAL-00129" summary="update">
-      <created>1564878851580</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1564878851583</updated>
-    </task>
-    <task id="LOCAL-00130" summary="update">
-      <created>1564880285863</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1564880285863</updated>
-    </task>
-    <task id="LOCAL-00131" summary="update">
-      <created>1564880960545</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1564880960554</updated>
-    </task>
-    <task id="LOCAL-00132" summary="update">
-      <created>1564885037128</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1564885037129</updated>
-    </task>
-    <task id="LOCAL-00133" summary="update">
-      <created>1564885941228</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1564885941235</updated>
-    </task>
-    <task id="LOCAL-00134" summary="update">
-      <created>1564885998430</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1564885998430</updated>
-    </task>
-    <task id="LOCAL-00135" summary="update">
-      <created>1564888035628</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1564888035628</updated>
-    </task>
-    <task id="LOCAL-00136" summary="update">
-      <created>1565186667495</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1565186667497</updated>
-    </task>
-    <task id="LOCAL-00137" summary="update">
-      <created>1565186698103</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1565186698103</updated>
-    </task>
-    <task id="LOCAL-00138" summary="update">
-      <created>1565257549121</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1565257549122</updated>
-    </task>
-    <task id="LOCAL-00139" summary="update">
-      <created>1565257568336</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1565257568336</updated>
-    </task>
-    <task id="LOCAL-00140" summary="update">
-      <created>1565257587252</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1565257587252</updated>
-    </task>
-    <task id="LOCAL-00141" summary="update">
-      <created>1565257608028</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1565257608028</updated>
-    </task>
-    <task id="LOCAL-00142" summary="update">
-      <created>1565257626740</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1565257626740</updated>
-    </task>
-    <task id="LOCAL-00143" summary="update">
-      <created>1565257643156</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1565257643156</updated>
-    </task>
-    <task id="LOCAL-00144" summary="update">
-      <created>1565600372667</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1565600372668</updated>
-    </task>
-    <task id="LOCAL-00145" summary="update">
-      <created>1565600409460</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1565600409460</updated>
-    </task>
-    <task id="LOCAL-00146" summary="update">
-      <created>1565600510154</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1565600510154</updated>
-    </task>
-    <task id="LOCAL-00147" summary="update">
-      <created>1565600653093</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1565600653094</updated>
-    </task>
-    <task id="LOCAL-00148" summary="update">
-      <created>1565600819805</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1565600819805</updated>
-    </task>
-    <task id="LOCAL-00149" summary="update">
-      <created>1565656557225</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1565656557225</updated>
-    </task>
-    <task id="LOCAL-00150" summary="update">
-      <created>1565666225954</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1565666225955</updated>
-    </task>
-    <task id="LOCAL-00151" summary="update">
-      <created>1565705526894</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1565705526895</updated>
-    </task>
-    <task id="LOCAL-00152" summary="update">
-      <created>1565745891899</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1565745891902</updated>
-    </task>
-    <task id="LOCAL-00153" summary="update">
-      <created>1565745936553</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1565745936553</updated>
-    </task>
-    <task id="LOCAL-00154" summary="update">
-      <created>1565746142779</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1565746142779</updated>
-    </task>
-    <task id="LOCAL-00155" summary="update">
-      <created>1565746199718</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1565746199718</updated>
+      <workItem from="1565961363198" duration="1889000" />
+      <workItem from="1565999834655" duration="57646000" />
+      <workItem from="1566258577892" duration="22228000" />
+      <workItem from="1566295229601" duration="1562000" />
+      <workItem from="1566344554131" duration="1517000" />
+      <workItem from="1566375644042" duration="7517000" />
+      <workItem from="1566518233011" duration="11201000" />
+      <workItem from="1566556967967" duration="7792000" />
     </task>
     <task id="LOCAL-00156" summary="update">
       <created>1565747615760</created>
@@ -629,11 +398,284 @@
       <option name="project" value="LOCAL" />
       <updated>1565921722617</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="update">
+      <created>1565962428473</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1565962428474</updated>
+    </task>
+    <task id="LOCAL-00167" summary="update">
+      <created>1566001749340</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1566001749341</updated>
+    </task>
+    <task id="LOCAL-00168" summary="update">
+      <created>1566004821127</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1566004821127</updated>
+    </task>
+    <task id="LOCAL-00169" summary="update">
+      <created>1566008575702</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1566008575708</updated>
+    </task>
+    <task id="LOCAL-00170" summary="update">
+      <created>1566009863404</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1566009863409</updated>
+    </task>
+    <task id="LOCAL-00171" summary="update">
+      <created>1566010237044</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1566010237044</updated>
+    </task>
+    <task id="LOCAL-00172" summary="update">
+      <created>1566027240079</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1566027240080</updated>
+    </task>
+    <task id="LOCAL-00173" summary="update">
+      <created>1566028938941</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1566028938942</updated>
+    </task>
+    <task id="LOCAL-00174" summary="update">
+      <created>1566029302970</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1566029302970</updated>
+    </task>
+    <task id="LOCAL-00175" summary="update">
+      <created>1566029713397</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1566029713397</updated>
+    </task>
+    <task id="LOCAL-00176" summary="update">
+      <created>1566029761003</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1566029761003</updated>
+    </task>
+    <task id="LOCAL-00177" summary="update">
+      <created>1566031467786</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1566031467786</updated>
+    </task>
+    <task id="LOCAL-00178" summary="update">
+      <created>1566048110536</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1566048110537</updated>
+    </task>
+    <task id="LOCAL-00179" summary="update">
+      <created>1566049482053</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1566049482054</updated>
+    </task>
+    <task id="LOCAL-00180" summary="update">
+      <created>1566049662730</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1566049662730</updated>
+    </task>
+    <task id="LOCAL-00181" summary="update">
+      <created>1566051722127</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1566051722129</updated>
+    </task>
+    <task id="LOCAL-00182" summary="update">
+      <created>1566086004617</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1566086004617</updated>
+    </task>
+    <task id="LOCAL-00183" summary="update">
+      <created>1566093361098</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1566093361099</updated>
+    </task>
+    <task id="LOCAL-00184" summary="update">
+      <created>1566094800099</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1566094800105</updated>
+    </task>
+    <task id="LOCAL-00185" summary="update">
+      <created>1566095503798</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1566095503802</updated>
+    </task>
+    <task id="LOCAL-00186" summary="update">
+      <created>1566097205049</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1566097205050</updated>
+    </task>
+    <task id="LOCAL-00187" summary="update">
+      <created>1566118773266</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1566118773271</updated>
+    </task>
+    <task id="LOCAL-00188" summary="update">
+      <created>1566120060646</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1566120060648</updated>
+    </task>
+    <task id="LOCAL-00189" summary="update">
+      <created>1566259349331</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1566259349331</updated>
+    </task>
+    <task id="LOCAL-00190" summary="update">
+      <created>1566262176864</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1566262176865</updated>
+    </task>
+    <task id="LOCAL-00191" summary="update">
+      <created>1566262216410</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1566262216410</updated>
+    </task>
+    <task id="LOCAL-00192" summary="update">
+      <created>1566263356913</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1566263356913</updated>
+    </task>
+    <task id="LOCAL-00193" summary="update">
+      <created>1566263793103</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1566263793103</updated>
+    </task>
+    <task id="LOCAL-00194" summary="update">
+      <created>1566265919559</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1566265919559</updated>
+    </task>
+    <task id="LOCAL-00195" summary="update">
+      <created>1566269691752</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1566269691752</updated>
+    </task>
+    <task id="LOCAL-00196" summary="update">
+      <created>1566269709503</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1566269709503</updated>
+    </task>
+    <task id="LOCAL-00197" summary="update">
+      <created>1566269732764</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1566269732764</updated>
+    </task>
+    <task id="LOCAL-00198" summary="update">
+      <created>1566281991316</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1566281991319</updated>
+    </task>
+    <task id="LOCAL-00199" summary="update">
+      <created>1566282009187</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1566282009187</updated>
+    </task>
+    <task id="LOCAL-00200" summary="update">
+      <created>1566288117987</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1566288117991</updated>
+    </task>
+    <task id="LOCAL-00201" summary="update">
+      <created>1566288137405</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1566288137405</updated>
+    </task>
+    <task id="LOCAL-00202" summary="update">
+      <created>1566519960906</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1566519960907</updated>
+    </task>
+    <task id="LOCAL-00203" summary="update">
+      <created>1566520877635</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1566520877635</updated>
+    </task>
+    <task id="LOCAL-00204" summary="update">
+      <created>1566523962333</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1566523962334</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158748000" />
+    <option name="totallyTimeSpent" value="269439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,23 +687,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="627" y="3" width="729" height="725" extended-state="0" />
+    <frame x="586" y="3" width="764" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2952243" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25344354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44763514" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966443" weight="0.4367622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4955357" weight="0.32733223" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49702382" weight="0.19312602" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5029762" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5033557" side_tool="true" weight="0.30860034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -742,14 +784,17 @@
           <line>15</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/FQ/10正则表达式.html</url>
+          <line>124</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JavascriptDebugType">
-        <watch expression="person1" language="HTML" />
-        <watch expression="person2" language="HTML" />
-        <watch expression="proty" language="HTML" />
-        <watch expression="People" />
+        <watch expression="obj" language="HTML" />
+        <watch expression="pattern" language="HTML" />
       </configuration>
     </watches-manager>
   </component>
@@ -764,6 +809,21 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>pattern</expression-string>
+        <language-id>HTML</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obj</expression-string>
+        <language-id>HTML</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obf</expression-string>
+        <language-id>HTML</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>person2</expression-string>
         <language-id>HTML</language-id>
@@ -799,34 +859,9 @@
         <language-id>HTML</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>i</expression-string>
-        <language-id>HTML</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a</expression-string>
-        <language-id>HTML</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js-function/program/24浮点数值舍入误差.html" />
-    <entry file="file://$PROJECT_DIR$/js-function/program/25null和undefined转换为对象.html" />
-    <entry file="file://$PROJECT_DIR$/JS-Other/12自增自减运算符.html" />
-    <entry file="file://$PROJECT_DIR$/JS-Other/13变量接收数组值.html" />
-    <entry file="file://$PROJECT_DIR$/JS-Array/01稀疏数组.html" />
-    <entry file="file://$PROJECT_DIR$/DOM/01DOM概念.html" />
-    <entry file="file://$PROJECT_DIR$/js-function/program/24函数的原型.html" />
-    <entry file="file://$PROJECT_DIR$/JS-Object/23体会面向过程和面向对象的编程思想.html" />
-    <entry file="file://$PROJECT_DIR$/src/JS-Other/33不用var声明变量.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JS-Function/program/caller.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1051,13 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FQ/7创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FQ/5递归.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1065,17 +1093,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FQ/7创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FQ/3js预解析.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="216">
           <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FQ/9call,apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FQ/8封装.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FQ/2事件委托.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="154">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jQuery/js/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jQuery/js/jquery-3.4.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jQuery/jquery-3.4.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FQ/10正则表达式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5302">
+          <caret line="241" column="37" selection-start-line="241" selection-start-column="37" selection-end-line="241" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FQ/11正则表达式的测试工具.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="170" column="32" selection-start-line="170" selection-start-column="32" selection-end-line="170" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FQ/12表单验证.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4180">
+          <caret line="190" column="31" selection-start-line="190" selection-start-column="31" selection-end-line="190" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jQuery/1meetjQuery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Typora/themes/newsprint.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Typora/themes/night.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/慕课网前端课程/慕课前端系统班/前端攻城狮2019版笔记源码/笔记源码/前端攻城狮笔记源码/第二阶段-组件化网页开发/1-深入了解js/源码/js表单验证案例（源码）/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/慕课网前端课程/慕课前端系统班/前端攻城狮2019版笔记源码/笔记源码/前端攻城狮笔记源码/第二阶段-组件化网页开发/1-深入了解js/源码/js表单验证案例（源码）/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jQuery/images/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jQuery/2travelPhotoAlbum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
