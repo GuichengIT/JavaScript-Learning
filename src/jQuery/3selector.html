@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>selector</title>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
-    
+    <section id="first" class="div first">first div element.</section>
+    <div>First after and second before</div>
+    <section id="second" class="div second">second div element.</section>
+    <div>Second after and third before</div>
+    <section id="third" class="div third">third div element.</section>
 </body>
+<script type="text/javascript">
+    //<!--id选择器-->
+    // var first = $('#first');
+    // console.log(first);
+    // var second = $('#second');
+    // console.log(second);
+    // var third = $('#third');
+    // console.log(third);
+
+    // 多项选择器
+    // var objs = $("#first,div,.third");
+    // console.log(objs);
+
+    // 顺序到底是怎样的呢-->顺序和html元素在文档中的顺序一致
+    // var objs = $("#first,div,.second");
+    // console.log(objs);
+
+    // 属性选择器
+    var types = $("[type]");
+    console.log(types);
+
+
+
+</script>
 </html>
