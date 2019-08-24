@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c53ea77-4f8f-4d99-b6b9-fd1d422c2d8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jQuery/1meetjQuery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/2travelPhotoAlbum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/images/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/js/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jQuery/js/jquery-3.4.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -71,16 +54,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jQuery/2travelPhotoAlbum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+            <state relative-caret-position="144">
+              <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jQuery/3selector.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -132,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS-Array/01稀疏数组.html" />
         <option value="$PROJECT_DIR$/DOM/01DOM概念.html" />
         <option value="$PROJECT_DIR$/JS-Object/23体会面向过程和面向对象的编程思想.html" />
         <option value="$PROJECT_DIR$/src/JS-Other/33不用var声明变量.html" />
@@ -183,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/jQuery/1认识jQuery.html" />
         <option value="$PROJECT_DIR$/src/jQuery/js/2travelPhotoAlbum.html" />
         <option value="$PROJECT_DIR$/src/jQuery/2travelPhotoAlbum.html" />
+        <option value="$PROJECT_DIR$/src/jQuery/3selector.html" />
       </list>
     </option>
   </component>
@@ -221,13 +213,6 @@
               <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,21 +311,7 @@
       <workItem from="1566344554131" duration="1517000" />
       <workItem from="1566375644042" duration="7517000" />
       <workItem from="1566518233011" duration="11201000" />
-      <workItem from="1566556967967" duration="7792000" />
-    </task>
-    <task id="LOCAL-00156" summary="update">
-      <created>1565747615760</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1565747615761</updated>
-    </task>
-    <task id="LOCAL-00157" summary="update">
-      <created>1565748201702</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1565748201704</updated>
+      <workItem from="1566556967967" duration="8755000" />
     </task>
     <task id="LOCAL-00158" summary="update">
       <created>1565769377022</created>
@@ -671,11 +642,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566523962334</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="update">
+      <created>1566570847967</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1566570847971</updated>
+    </task>
+    <task id="LOCAL-00206" summary="update">
+      <created>1566570955164</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1566570955165</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269439000" />
+    <option name="totallyTimeSpent" value="270402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,7 +675,7 @@
     <frame x="586" y="3" width="764" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25344354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25344354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -862,13 +847,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JS-Function/program/caller.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JS-Object/30包装对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1201,13 +1179,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jQuery/2travelPhotoAlbum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jQuery/3selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
