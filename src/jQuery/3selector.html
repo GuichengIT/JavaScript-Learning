@@ -6,11 +6,11 @@
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
-    <section id="first" class="div first">first div element.</section>
+    <section id="first" class="vs_div_vt">first div element.</section>
     <div>First after and second before</div>
-    <section id="second" class="div second">second div element.</section>
+    <section id="second" class="div">second div element.</section>
     <div>Second after and third before</div>
-    <section id="third" class="div third">third div element.</section>
+    <section id="third" class="div">third div element.</section>
 </body>
 <script type="text/javascript">
     //<!--id选择器-->
@@ -30,8 +30,36 @@
     // console.log(objs);
 
     // 属性选择器
-    var types = $("[type]");
-    console.log(types);
+    // var types = $("[type]");
+    // console.log(types);
+    // attribute^=char   属性名的头部是char的能匹配上
+    // var arrs = $("[class^=vs]");
+    // console.log(arrs);
+    // attribute$=char   属性名的尾部是char的能匹配上
+    // var arrs = $("[class$=vt]");
+    // console.log(arrs);
+    // attribute*=char   属性名包含char的能匹配上
+    // var arrs = $("[class*=vt]");
+    // console.log(arrs);
+
+    // 过滤器
+    // child系列
+    // :first-child
+    // :last-child
+    // :nth-child(n|even|odd|formula)
+    // :nth-last-child(n|even|odd|formula)
+    // :only-child
+    // 一般过滤器会和后代选择器一起使用，表示第几个孩子并且是某个元素
+    // 如$("father>p:first-child")表示father下的第一个孩子并且必须是p才能匹配上。
+
+    // type系列
+    // 以:first-type为例和child的区别在于只要是孩子节点中有p但是不是第一个子节点时仍然可以将p匹配出来
+
+    // 查找和过滤
+    // div.find(): 找到div的后代中所有满足括号中条件的元素
+    // div.children(): 找到div第一层后代中满足括号中条件的元素
+    // div.parent(): 找到div的父元素，注意只有一个
+    
 
 
 
