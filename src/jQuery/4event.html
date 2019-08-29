@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>event</title>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
+<form name="input" action="javascript:alert('我被提交了')" method="get">
+    <input type="button" value="按钮">
+    <input type="submit" value="提交">
+</form>
+<script type="text/javascript">
+    // submit三个作用
+    // 1. 让没有提交表单作用的元素具有提交表单的作用
+    //     $("input[type=button]").click(function() {
+    //         $("form").submit();
+    //     });
+    // 2. 阻止表单提交
+    //         $("form").submit(function(){
+    //             return false; //回调函数返回假值，就会阻止表单提交
+    //             });
+    // 3. 提交表单时做一些所需要做的事情
+        $("input[type=button]").click(function() {
+            $("form").submit(function(){
+                alert("hahaha");
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+            });
+        });
+
+    // $("form").submit(function(event){
+    //     alert("hahaha");
+    // });
+
+
+
+</script>
 </body>
 </html>
+
+
+
