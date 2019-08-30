@@ -10,6 +10,13 @@
     <input type="button" value="按钮">
     <input type="submit" value="提交">
 </form>
+<div id="panel">
+    <h5 class="head">什么是jquery?</h5>
+    <div class="content" style="display: none">
+        jQuery是继Prototype之后又一个优秀的JavaScript。
+    </div>
+</div>
+
 <script type="text/javascript">
     // submit三个作用
     // 1. 让没有提交表单作用的元素具有提交表单的作用
@@ -21,53 +28,27 @@
     //             return false; //回调函数返回假值，就会阻止表单提交
     //             });
     // 3. 提交表单时做一些所需要做的事情
-        $("input[type=button]").click(function() {
-            $("form").submit(function(){
-                alert("hahaha");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-            });
-        });
+    //     $("input[type=button]").click(function() {
+    //         $("form").submit(function(){
+    //             alert("hahaha");
+    //         });
+    //     });
 
     // $("form").submit(function(event){
     //     alert("hahaha");
     // });
+
+    // 事件参数
+    // $(document).keypress(function(event){
+    //     console.log(event);
+    // });
+
+    $(document).ready(function(){
+       $("#panel h5.head").bind("click",function(){
+           $(this).next().show();
+       });
+    });
+
 
 
 
