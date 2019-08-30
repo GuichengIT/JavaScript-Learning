@@ -43,10 +43,19 @@
     //     console.log(event);
     // });
 
+    // 绑定点击事件
+    // $(document).ready(function(){
+    //    $("#panel h5.head").bind("click",function(){
+    //        $(this).next().show();
+    //    });
+    // });
+    // 绑定鼠标移入移出事件
     $(document).ready(function(){
-       $("#panel h5.head").bind("click",function(){
-           $(this).next().show();
-       });
+        $("#panel h5.head").bind("mouseover",function(){
+            $(this).next().show();
+        }).bind("mouseout",function(){
+            $(this).next().hide();
+        });
     });
 
 
