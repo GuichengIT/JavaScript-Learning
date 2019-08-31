@@ -9,13 +9,15 @@
 <form name="input" action="javascript:alert('我被提交了')" method="get">
     <input type="button" value="按钮">
     <input type="submit" value="提交">
+    <input type="text" id="input">
 </form>
 <div id="panel">
-    <h5 class="head">什么是jquery?</h5>
+    <h5 class="head" style="display: none">什么是jquery?</h5>
     <div class="content" style="display: none">
         jQuery是继Prototype之后又一个优秀的JavaScript。
     </div>
 </div>
+<a href="#" id="a">阿里</a>
 
 <script type="text/javascript">
     // submit三个作用
@@ -50,13 +52,43 @@
     //    });
     // });
     // 绑定鼠标移入移出事件
-    $(document).ready(function(){
-        $("#panel h5.head").bind("mouseover",function(){
-            $(this).next().show();
-        }).bind("mouseout",function(){
-            $(this).next().hide();
-        });
-    });
+    // $(document).ready(function(){
+    //     $("#panel h5.head").bind("mouseover",function(){
+    //         $(this).next().show();
+    //     }).bind("mouseout",function(){
+    //         $(this).next().hide();
+    //     });
+    // });
+    // 绑定hover事件,jQyery自定义事件，鼠标移入触发第一个函数，鼠标移出触发第二个函数
+    // $(document).ready(function(){
+    //     $("#panel h5.head").hover(
+    //         function(){
+    //         $(this).next().show();}
+    //         ,function(){
+    //         $(this).next().hide();
+    //         })
+    // });
+    // toggle事件
+    //     $("#panel h5.head").toggle(function(){
+    //         console.log("hahaha");
+    //         $(this).next().show();
+    //     },function(){
+    //         console.log("222222");
+    //         $(this).next().hide();
+    //     });
+    // 事件对象
+    // $("#a").mousedown(function(e){
+    //     console.log(e.which);
+    // });
+    // $("#input").keyup(function(e){
+    //     console.log(e.which);
+    // });
+    // $("#input").toggleClass(function(e){
+    //     console.log(e.which);
+    // });
+
+
+
 
 
 
