@@ -3,25 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>操作DOM</title>
+    <style type="text/css">
+        .fruit {
+            color: red;
+        }
+        .another {
+            color: purple;
+        }
+    </style>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
-    <ul>
+    <ul class="fruit">
         <li id="apple">苹果</li>
         <li id="orange">橘子</li>
         <li>香蕉</li>
     </ul>
+
+    <select name="select" id="select" multiple="multiple">
+        <option selected="selected">1</option>
+        <option >2</option>
+        <option >3</option>
+        <option selected="selected">4</option>
+    </select>
+
+    <input type="text" id="address" value="请输入邮箱地址"/>
+    <input type="text" id="password" value="请输入邮箱密码"/>
+    <input type="button" value="登录">
+
     <script type="text/javascript">
         var $li_1 = $("ul li:eq(0)");
         var $li_2 = $("ul li:eq(1)");
         // $li_1.before($li_2);
         // $("ul li").remove("li[id!='orange']");
-        // $("ul li").click(function(){
-        //     alert("jiayou");
-        // });
+        $("ul li").click(function(){
+            $(this).clone(true).appendTo("ul");
+        });
         // var $li = $("ul li").detach();
         // $li.appendTo($("ul"));
+        // var em = $li_2.empty();
+        // console.log(em);
+        // em.appendTo($li_2);
 
+        // $("ul").wrapAll("<b></b>");
+
+        // $("ul").click(function(){
+        //     $("ul").toggleClass("another");
+        // });
+
+        // $("#select").val("2");
+        // $("#select").attr(value,"2");
+
+        $("#address").focus(function(){
+            if($(this).attr("value")=="请输入邮箱地址"){
+                $(this).attr("value", "");
+            }
+        });
 
     </script>
 
