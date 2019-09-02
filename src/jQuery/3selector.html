@@ -15,6 +15,13 @@
             text-align: center;
             position: relative;
         }
+        #test1 {
+            width: 200px;
+            height: 200px;
+            border: 3px solid green;
+            text-align: center;
+            position: relative;
+        }
     </style>
     <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
 </head>
@@ -25,6 +32,7 @@
     <div id="content">jQuery是一个优秀的JavaScript库</div>
 </div>
 <div id="test">hello</div>
+<div id="test1">hei</div>
 <script type="text/javascript">
     //<!--id选择器-->
     // var first = $('#first');
@@ -80,11 +88,15 @@
         // });
 
     $("#test").click(function () {
-        $(this).animate(
-            {left: "800px"},3000
-        );
+        $(this).stop(true)
+                .animate({left:"800px",height:"400px",opacity:"0.5"},3000)
+               .animate({top:"400px", width:"400px"}, 3000)
+               .fadeOut(5000);
     });
-
+    $("#test1").click(function () {
+        $(this).stop()
+            .animate({left:"800px",height:"400px",opacity:"0.5"},3000)
+    });
 </script>
 
 </body>
