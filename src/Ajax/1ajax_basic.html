@@ -11,9 +11,13 @@
     //1、需要一个浏览器（用户代理），XMLhttpRequest就相当于一个浏览器的作用(发送请求接收响应)
     var xhr = new XMLHttpRequest();
     //2.打开浏览器，输入url
-    xhr.open("");
-
+    xhr.open("GET","http://node.js/1helloWorld.js");
+    //3.回车发送请求
+    xhr.send();
     //3.等待响应
+    xhr.onreadystatechange = function () {
+      console.log(xhr.readyState);
+    };
     //4.看结果
 </script>
 
