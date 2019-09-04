@@ -43,6 +43,6 @@ server.on('request', function(req, res){
 });
 
 //3. 绑定端口号，启动服务
-server.listen(3000,function(){
+server.listen(5000,function(){
     console.log("服务器启动成功，可以访问了...");
 });
