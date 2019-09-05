@@ -17,7 +17,7 @@ server.on('request', function (req, res) {
         console.log(wwwDir+url);
         if (err){
             res.setHeader('content-type', 'text/plain;chaset=utf-8')
-            res.end('出错啦');
+            res.end('404 Not Found');
             console.log('出错啦');
         } else {
             res.setHeader('content-type', 'text/html;chaset=utf-8')
