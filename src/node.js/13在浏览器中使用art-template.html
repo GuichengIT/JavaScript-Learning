@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在浏览器中使用art-template</title>
+    <script src="node_modules/art-template/lib/template-web.js"></script>
+</head>
+<body>
+<!--
+    type不能写成javascript，否则就会按照js去解析了
+    强调： 模板引擎不关心字符串的内容，只关心自己能认识的模板标记语法
+    例如 {{}} 语法倍称之为mustache 语法。
+    -->
+
+<script type="text/template" id="tpl">
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>在浏览器中使用art-template</title>
+        <script src="node_modules/art-template/lib/template-web.js"></script>
+</head>
+<body>
+<!--
+    type不能写成javascript，否则就会按照js去解析了
+    强调： 模板引擎不关心字符串的内容，只关心自己能认识的模板标记语法
+    例如 {{}} 语法倍称之为mustache 语法。
+    -->
+
+<script type="text/template" id="tpl">
+    大家好，我叫： {{ name }}
+    今年:{{age}}
+    我喜欢：{{ each hobbies }} {{ $value }} {{/each}}
+</script>
+<script>
+    var ret = template('tpl', {
+        name: 'Jack',
+        age: '18',
+        hobbies: [
+            'coding',
+            'sing',
+            'dance'
+        ]
+    });
+
+    console.log(ret);
+</script>
+
+
+</body>
+</html>
+</script>
+<script>
+    var ret = template('tpl', {
+        name: 'Jack',
+        age: '18',
+        hobbies: [
+            'coding',
+            'sing',
+            'dance'
+        ]
+    });
+
+    console.log(ret);
+</script>
+
+
+</body>
+</html>
