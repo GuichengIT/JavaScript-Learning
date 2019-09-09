@@ -12,13 +12,10 @@ server.on('request', function (req, res) {
     var content;
 
     fs.readdir(wwwDir, function (err, files) {
-        for (let i=0;i<files.length;i++){
-            console.log(files[i]);
-            content +=`
-                <td data-value="apple/"><a class="icon dir" href=wwwDir>${files[i]}</a></td>
-                <td class="detailsColumn" data-value="0"></td> 
-                <td class="detailsColumn" data-value="1509589967">2017/11/2 上午10:32:47</td>
-                `;
+        if (err) {
+            console.log('目录读取失败！');
+        } else {
+            console.log(files);
         }
     });
 
