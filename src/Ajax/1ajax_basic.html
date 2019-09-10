@@ -10,13 +10,31 @@
     // 上网的四个步骤：
     //1、需要一个浏览器（用户代理），XMLhttpRequest就相当于一个浏览器的作用(发送请求接收响应)
     var xhr = new XMLHttpRequest();
+    console.log(xhr.readyState);
     //2.打开浏览器，输入url
-    xhr.open("GET","http://node.js/1helloWorld.js");
+    xhr.open("GET","nodeServer.js");
+    console.log(xhr.readyState);
     //3.回车发送请求
-    xhr.send();
+    xhr.send(null);
+    console.log(xhr.readyState);
     //3.等待响应
     xhr.onreadystatechange = function () {
-      console.log(xhr.readyState);
+      // if(xhr.readyState === 4){
+      //     return console.log(xhr.responseText);
+      // }
+        switch (xhr.readyState){
+            case 2:
+                console.log(xhr.readyState);
+                console.log(xhr.responseText);
+                console.log(xhr.getAllResponseHeaders());
+                break;
+            case 3:
+                console.log(xhr.readyState);
+                break;
+            case 4:
+                console.log(xhr.readyState);
+                break;
+        }
     };
     //4.看结果
 </script>
