@@ -9,6 +9,8 @@ var server = http.createServer();
 server.on('request', function (req, res) {
     var url = req.url;
     console.log(req.url);
+    res.setHeader("Content-Type", "text/plain;charset=utf-8")
+    res.end("文件读取失败，请稍后重试！");
    
 });
 
