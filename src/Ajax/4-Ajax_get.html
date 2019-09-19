@@ -10,17 +10,20 @@
 <body>
 <script type="text/javascript">
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "nodeServer.js");
-    xhr.send();
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4){
-            var data = JSON.parse(xhr.responseText)
-            for (var i = 0;i < data.length; i++){
-                console.log(data[i]);
-            }
+            //var data = JSON.parse(xhr.responseText)
+            // for (var i = 0;i < data.length; i++){
+            //     console.log(data[i]);
+            // }
+            console.log(xhr.responseText);
         }
-    }
+    };
+
+    xhr.open("GET", "http://127.0.0.1/", true);
+    xhr.setRequestHeader("Host", "http://127.0.0.1");
+    xhr.send();
 </script>
 
 </body>
