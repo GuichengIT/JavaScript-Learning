@@ -1,6 +1,6 @@
 //  引入相应的模块
 var http = require('http');
-var fs = require('fs');
+
 
 // 创建服务器
 var server = http.createServer();
@@ -9,8 +9,13 @@ var server = http.createServer();
 server.on('request', function (req, res) {
     var url = req.url;
     console.log(req.url);
-    res.setHeader("Content-Type", "text/plain;charset=utf-8")
-    res.end("文件读取失败，请稍后重试！");
+    res.setHeader("Content-Type", "text/plain;charset=utf-8");
+    var data = {
+          "name": "zhangsan",
+          "age": 18
+    };
+    res.write("hello");
+    res.end("回应");
    
 });
 
