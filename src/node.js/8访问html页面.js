@@ -13,7 +13,7 @@ server.on("request", function (req, res) {
             res.end("文件读取失败，请稍后重试！");
         }else{
             res.setHeader("Content-Type", "text/html;charset=utf-8");
-            res.end(data)
+            res.end(data);
         }
     })
 });
