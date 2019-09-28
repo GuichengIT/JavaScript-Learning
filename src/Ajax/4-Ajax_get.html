@@ -8,7 +8,25 @@
     <title>Ajax_GET</title>
 </head>
 <body>
+
+	<ul>
+		<li id='zhangsan'><a href="#">zhangsan</a></li>
+		<li id='lisi'><a href="#">lisi</a></li>
+		<li id='ershazi'><a href="#">ershazi</a></li>
+		<li id='sanlengzi'><a href="#">sanlengzi</a></li>
+	</ul>
+
 <script type="text/javascript">
+
+	var zhangsan = document.getElementById('zhangsan');
+	var lisi = document.getElementById('lisi');
+	var ersahzi = document.getElementById('ershazi');
+	var sanlengzi = document.getElementById('sanlengzi');
+
+	zhangsan.onclick = function () {
+
+	}
+
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function () {
@@ -18,12 +36,13 @@
             //     console.log(data[i]);
             // }
             console.log(xhr.responseText);
+            console.log(typeof xhr.responseText);
+            console.log(xhr.responseText.split(','));
         }
     };
 
-    xhr.open("GET", "http://127.0.0.1/", true);
-    xhr.setRequestHeader("Host", "http://127.0.0.1");
-    xhr.send();
+    xhr.open("GET", "http://ajax.io/user.php?id=2", true);
+    xhr.send(null);
 </script>
 
 </body>
