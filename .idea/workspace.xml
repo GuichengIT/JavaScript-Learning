@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c53ea77-4f8f-4d99-b6b9-fd1d422c2d8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FQ/10正则表达式.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/FQ/10正则表达式.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,7 +15,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ajax/1ajax_basic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FQ/10正则表达式.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="310" column="37" lean-forward="true" selection-start-line="310" selection-start-column="37" selection-end-line="310" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,7 +57,6 @@
         <option value="$PROJECT_DIR$/src/FQ/7创建对象.html" />
         <option value="$PROJECT_DIR$/src/FQ/8封装.html" />
         <option value="$PROJECT_DIR$/src/FQ/9call,apply.html" />
-        <option value="$PROJECT_DIR$/src/FQ/10正则表达式.html" />
         <option value="$PROJECT_DIR$/src/FQ/11正则表达式的测试工具.html" />
         <option value="G:/慕课网前端课程/慕课前端系统班/前端攻城狮2019版笔记源码/笔记源码/前端攻城狮笔记源码/第二阶段-组件化网页开发/1-深入了解js/源码/js表单验证案例（源码）/index.html" />
         <option value="$PROJECT_DIR$/src/FQ/12表单验证.html" />
@@ -81,8 +100,9 @@
         <option value="$PROJECT_DIR$/src/jQuery/index.html" />
         <option value="$PROJECT_DIR$/src/node.js/8访问html页面.js" />
         <option value="$PROJECT_DIR$/src/Ajax/user.php" />
-        <option value="$PROJECT_DIR$/src/Ajax/1ajax_basic.html" />
         <option value="$PROJECT_DIR$/src/Ajax/hello.txt" />
+        <option value="$PROJECT_DIR$/src/Ajax/1ajax_basic.html" />
+        <option value="$PROJECT_DIR$/src/FQ/10正则表达式.html" />
       </list>
     </option>
   </component>
@@ -93,10 +113,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="328" />
-    <option name="y" value="54" />
-    <option name="width" value="792" />
-    <option name="height" value="728" />
+    <option name="x" value="596" />
+    <option name="y" value="1" />
+    <option name="width" value="783" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,6 +135,12 @@
               <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FQ" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,83 +272,10 @@
       <workItem from="1569243400560" duration="1250000" />
       <workItem from="1569507353569" duration="599000" />
       <workItem from="1569662435099" duration="774000" />
-    </task>
-    <task id="LOCAL-00240" summary="update">
-      <created>1567555242716</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
-      <option name="project" value="LOCAL" />
-      <updated>1567555242716</updated>
-    </task>
-    <task id="LOCAL-00241" summary="update">
-      <created>1567559308964</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1567559308965</updated>
-    </task>
-    <task id="LOCAL-00242" summary="update">
-      <created>1567559335486</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
-      <option name="project" value="LOCAL" />
-      <updated>1567559335486</updated>
-    </task>
-    <task id="LOCAL-00243" summary="update">
-      <created>1567559368381</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1567559368381</updated>
-    </task>
-    <task id="LOCAL-00244" summary="update">
-      <created>1567606779331</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1567606779336</updated>
-    </task>
-    <task id="LOCAL-00245" summary="update">
-      <created>1567644394765</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1567644394766</updated>
-    </task>
-    <task id="LOCAL-00246" summary="update">
-      <created>1567644411640</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1567644411640</updated>
-    </task>
-    <task id="LOCAL-00247" summary="update">
-      <created>1567647388483</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1567647388483</updated>
-    </task>
-    <task id="LOCAL-00248" summary="update">
-      <created>1567647906912</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1567647906912</updated>
-    </task>
-    <task id="LOCAL-00249" summary="update">
-      <created>1567647924638</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
-      <option name="project" value="LOCAL" />
-      <updated>1567647924638</updated>
-    </task>
-    <task id="LOCAL-00250" summary="update">
-      <created>1567648132005</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1567648132005</updated>
+      <workItem from="1569746432415" duration="749000" />
+      <workItem from="1570259934898" duration="1813000" />
+      <workItem from="1570498766065" duration="4917000" />
+      <workItem from="1570672788686" duration="8275000" />
     </task>
     <task id="LOCAL-00251" summary="update">
       <created>1567654579835</created>
@@ -590,11 +543,88 @@
       <option name="project" value="LOCAL" />
       <updated>1569677684691</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <task id="LOCAL-00289" summary="update">
+      <created>1569746469345</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1569746469345</updated>
+    </task>
+    <task id="LOCAL-00290" summary="update">
+      <created>1569746511393</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1569746511393</updated>
+    </task>
+    <task id="LOCAL-00291" summary="update">
+      <created>1570259991351</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1570259991352</updated>
+    </task>
+    <task id="LOCAL-00292" summary="update">
+      <created>1570260594989</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1570260594989</updated>
+    </task>
+    <task id="LOCAL-00293" summary="update">
+      <created>1570261913731</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1570261913731</updated>
+    </task>
+    <task id="LOCAL-00294" summary="update">
+      <created>1570261957190</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1570261957190</updated>
+    </task>
+    <task id="LOCAL-00295" summary="update">
+      <created>1570262074454</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1570262074454</updated>
+    </task>
+    <task id="LOCAL-00296" summary="update">
+      <created>1570262105020</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1570262105020</updated>
+    </task>
+    <task id="LOCAL-00297" summary="update">
+      <created>1570498976840</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1570498976841</updated>
+    </task>
+    <task id="LOCAL-00298" summary="update">
+      <created>1570499762754</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1570499762754</updated>
+    </task>
+    <task id="LOCAL-00299" summary="update">
+      <created>1570501155301</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1570501155301</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436422000" />
+    <option name="totallyTimeSpent" value="452176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,8 +637,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18080357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22098215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -619,9 +650,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32676518" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4955357" weight="0.32676518" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4940476" visible="true" weight="0.31587562" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4955357" weight="0.24713585" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50446427" side_tool="true" weight="0.3797054" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50595236" side_tool="true" visible="true" weight="0.31587562" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -827,13 +858,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jQuery/5eventRemove.html" />
-    <entry file="file://$PROJECT_DIR$/src/FQ/10正则表达式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5302">
-          <caret line="241" column="37" selection-start-line="241" selection-start-column="37" selection-end-line="241" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node.js/1认识node.html" />
     <entry file="file://$PROJECT_DIR$/src/FQ/12表单验证.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1054,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ajax/1ajax_basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ajax/4-Ajax_get.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1098,6 +1115,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ajax/3Ajax_http.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ajax/1ajax_basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FQ/10正则表达式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="310" column="37" lean-forward="true" selection-start-line="310" selection-start-column="37" selection-end-line="310" selection-end-column="37" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

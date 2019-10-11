@@ -237,13 +237,13 @@
      *  js中：backgroundColor
      * jquery: $(elem).css("background-color", 'red');
      */
-     function toCamel(str){
-         var pattern = /-([a-zA-Z])/;
-         return str.replace(pattern,function(all,$1){
-             return $1.toUpperCase();
-         });
-     }
-     console.log(toCamel("background-color"));
+     // function toCamel(str){
+     //     var pattern = /-([a-zA-Z])/;
+     //     return str.replace(pattern,function(all,$1){
+     //         return $1.toUpperCase();
+     //     });
+     // }
+     // console.log(toCamel("background-color"));
 
     // 匹配HTML标签
     // <input type="text" value=">" name="username" />;
@@ -300,8 +300,20 @@
     //     chinese: /[\u4e00-\u9fa5]/
     // };
 
+    // var s = "1,   2,    3";
+    // // var pattern = /\s*,\s*/;
+    //
+    // // console.log(s.split(pattern));
+    // console.log(s.split(","));
 
+    // var pattern = /JavaScript?(?=\:)/;
+    // var s = 'JavaScript::::a';
+    // console.log(s.match(pattern));
 
+    var s = '1 + 2 = 3';
+    var pattern = /\d+/g;
+    var result = s.match(pattern);
+    console.log(result);
 
 
 
