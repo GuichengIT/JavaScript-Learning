@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this</title>
+</head>
+<body>
+<script type="text/javascript">
+    let o = {
+        m: function() {
+            let self = this;
+            console.log(this === o); // true, this就是o对象
+            f(); // 嵌套函数f当做普通函数调用
+
+            function f() {
+
+                // 上面f()是被当做普通函数调用的，执行环境是全局作用域，因此f内部的this的值指向全局对象window
+                console.log(this === o); // false,this在这里指向全局对象
+
+                // self保存的是外部方法中的this，指向对象o
+                console.log(self === o) // true
+            }
+        }
+    };
+
+    o.m();
+</script>
+
+</body>
+</html>
