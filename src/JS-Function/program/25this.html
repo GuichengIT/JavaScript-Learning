@@ -39,18 +39,45 @@
     // f(); // 2
     // obj.f(); // 1
 
-    function f() {
+    // function f() {
+    //     console.log(this.x);
+    // }
+    // var obj = {
+    //     f: f,
+    //     x: 1
+    // };
+    // var x = 2;
+    //
+    // console.log(window.x);
+    // f(); // 2
+    // obj.f(); // 1
+
+
+    var obj1 = {
+        x : 1
+    };
+
+    var obj2 = {
+        x : 2
+    };
+
+    var obj3 = {
+        x : 3
+    };
+
+    var x = 0;
+
+    function foo() {
         console.log(this.x);
     }
-    var obj = {
-        f: f,
-        x: 1
-    };
-    var x = 2;
 
-    console.log(window.x);
-    f(); // 2
-    obj.f(); // 1
+    var foo1 = foo.bind(obj1);
+    foo1();
+    foo.call(obj2);
+    foo.apply(obj3);
+    foo();
+
+
 </script>
 
 </body>
