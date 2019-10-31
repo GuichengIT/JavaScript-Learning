@@ -77,6 +77,14 @@
     // foo.apply(obj3);
     // foo();
 
+    function f_wai() {
+      var i = 1;
+      setTimeout(function f_nei() {
+        console.log(2);
+      }, 100)
+    }
+
+    f_wai();
 
 
 </script>
