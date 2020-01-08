@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>隐藏数据</title>
+</head>
+<body>
+<script>
+  function createCache() {
+    let data = {}; // 隐藏 data 数据
+    return {
+      set: function (key, val) {
+        data.key = val;
+      },
+      get: function (key) {
+        return data.key;
+      }
+    }
+  }
+
+  const cache = createCache();
+  cache.set('a', 123);
+  console.log(cache.get('a'));
+</script>
+
+</body>
+</html>

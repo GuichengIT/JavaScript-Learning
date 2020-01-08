@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM 性能</title>
+</head>
+<body>
+  <ul id="list">
+
+  </ul>
+  <script>
+    // 耗性能
+    // const ul = document.getElementById('list')
+    // for (let i=0; i<10; i++) {
+    //   const li = document.createElement('li')
+    //   li.innerHTML = 'item' + i;
+    //   ul.appendChild(li)
+    // }
+
+    // 优化方案
+    const ul = document.getElementById('list')
+    const frag = document.createDocumentFragment()
+    for (let i=0; i<10; i++) {
+      const li = document.createElement('li')
+      li.innerHTML = 'item' + i
+      frag.appendChild(li)
+    }
+    ul.appendChild(frag)
+  </script>
+</body>
+</html>
