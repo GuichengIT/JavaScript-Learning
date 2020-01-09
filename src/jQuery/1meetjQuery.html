@@ -15,20 +15,20 @@
     // alert(window.$ === window.jQuery);//true
     // alert(typeof($));//返回function
     // $("div").addClass("div");
-
+    console.log($);
     $(document).ready(function () {
         // $(document).keydown(function(event){
         //     console.log(event);
         // });
-        $("div").keyup(function(event){
+        $("div").bind('click', function(event){
             console.log(event);
+            console.log('hello');
+        });
+        $('document').bind('keyup', function(event){
+          console.log(event);
+          console.log('hello');
         });
     })
-
-
-
-
-
 
 </script>
 

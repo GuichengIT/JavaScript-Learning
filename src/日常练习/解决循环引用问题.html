@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  function circularReference() {
+
+    let obj1 = {
+    };
+    let obj2 = {
+      b: obj1
+    };
+    obj1.a = obj2;
+    console.log(obj1);
+  }
+  circularReference();
+</script>
+
+</body>
+</html>
