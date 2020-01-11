@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSONP案例</title>
+</head>
+<body>
+<script>
+  function dataLoad (res) {
+    console.log(res);
+  }
+  const script = document.createElement('script');
+  script.src = "http://localhost:8080/test.js?callback=dataLoad&username=zhangsan";
+  document.body.insertBefore(script, document.body.firstChild);
+</script>
+
+</body>
+</html>
