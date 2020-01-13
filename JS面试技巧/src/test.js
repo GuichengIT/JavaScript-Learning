@@ -1,1 +1,5 @@
-console.log( {} ==10 );
+
+const a = require('./ES6Module');
+
+
+console.log(a);
