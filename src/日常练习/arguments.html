@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>arguments</title>
+</head>
+<body>
+<script>
+  function f1 (a, b, c) {
+    console.log(arguments);
+    function f2 (e, f) {
+      console.log(`e 和 f 分别是 ${e} , ${f}`);
+    }
+    f2.apply(this, arguments);
+  }
+  f1(1, 2, 3);
+</script>
+</body>
+</html>
