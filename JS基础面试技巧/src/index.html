@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS面试技巧</title>
+  <style type="text/css">
+    div {
+      width: 100px;
+      height: 100px;
+      border: 1px solid red;
+    }
+    #iframe {
+      width: 900px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div id="div">hello</div>
+  <iframe src="https://www.cnblogs.com/zhangguicheng/" frameborder="0" id='iframe'></iframe>
+  <script>
+    const begin_blog = document.getElementById('page_begin_html');
+    const div_me = document.getElementById('div');
+    console.log(`begin_blog 的值是 ${begin_blog}`);
+    console.log(`div_me 的值是 ${div_me}`);
+  </script>
+</body>
+</html>
