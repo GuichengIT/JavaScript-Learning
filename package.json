@@ -1,0 +1,32 @@
+{
+  "name": "JavaScript-Learning",
+  "version": "1.0.0",
+  "description": "记录了自己JavaScript学习的整个过程，从ES5到ES6，从基础到进阶，革命尚未成功同志仍需努力！\r (I'm recording the entire process of JavaScript learning, from ES5 to ES6, from basic to advanced.\r The revolution has not yet succeeded, you shuould try your best for it at all the time!)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "bundle": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@happyCoding1024.github.com:happyCoding1024/JavaScript-Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6"
+  }
+}
