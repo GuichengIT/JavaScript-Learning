@@ -8,6 +8,7 @@ function loadImg(src, callback, fail) {
   }
   img.src = src
 }
+
 var src = ''
 loadImg(src, function(img) {
   console.log(img.width)
