@@ -18,6 +18,7 @@
 // hashiqi.eat()
 // hashiqi.bark()
 
+
 // ES6 代码
 class Animal {
   constructor(name) {
